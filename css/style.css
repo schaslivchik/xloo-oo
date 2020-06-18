@@ -87,8 +87,11 @@ width: 100%;
 }
 
 .xloo-block {
-min-height: 100vh;
-padding: 80px 0;
+  min-height: calc(100vh - 86px);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 80px 0;
 }
 
 .xloo-block-cta {
@@ -122,6 +125,9 @@ position: relative;
 .xloo-img {
 position: absolute;
 right: -45px;
+top: 0;
+bottom: 0;
+margin: auto;
 }
 .tiltBox {
 transform-style: preserve-3d;
@@ -230,6 +236,42 @@ bottom: 0;
 justify-content: center;
 z-index: 9;
 position: absolute;
-    height: 100vh;
-
+height: 100vh;
+}
+.xloo-features-content {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.xloo-features-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.xloo-features-item {
+  width: 48%;
+  display: flex;
+}
+.xloo-features-content-title {
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.xloo-features-content-text {
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 28px;
+}
+.xloo-features-item:first-child, .xloo-features-item:nth-child(2) {
+  margin-bottom: 70px;
+}
+.wrap-block-btn {
+  display: flex;
+  align-items: center;
+}
+.btn-xloo-block {
+  color: #ffffff;
+}
+.xloo-features-img {
+   padding-top: 5px;
 }
