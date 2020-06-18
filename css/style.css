@@ -36,7 +36,6 @@ background: rgb(14, 20, 28);
 background: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
 overflow-x: hidden;
 }
-
 .nav-xloo-link {
 display: block;
 position: relative;
@@ -118,9 +117,19 @@ font-weight: 600;
 color: #93CB40;
 font-size: 34px;
 }
-
 .section-cta {
 position: relative;
+}
+.section-cta:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: -15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../images/xloo-logo-bg.png) right center no-repeat;
 }
 .xloo-img {
 position: absolute;
