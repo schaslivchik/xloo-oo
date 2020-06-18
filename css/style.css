@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800&display=swap');
-html {
-  -webkit-overflow-scrolling: touch;
-}
+
 body {
 font-family: 'Muli', sans-serif;
 }
@@ -202,6 +200,8 @@ overflow: hidden;
 height: 100vh;
 position: absolute;
 width: 100%;
+transform: translate3d(0px,0px,0px);
+-webkit-overflow-scrolling: touch;
 }
 .active-trigger .burger-ico{
 opacity: 0;
