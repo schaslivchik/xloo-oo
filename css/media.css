@@ -20,6 +20,10 @@
   .nav {
     display: none;
   }
+  .nav-xloo-link {
+    margin-bottom: 40px;
+    font-size: 21px;
+  }
  }
 
 
