@@ -271,6 +271,16 @@ height: 100vh;
 }
 .btn-xloo-block {
   color: #ffffff;
+  font-size: 20px;
+}
+.btn-xloo-block:hover {
+  color: #93CB40;
+}
+.arrow-btn {
+  transition: 0.3s;
+}
+.btn-xloo-block:hover .arrow-btn {
+  margin-left: 10px;
 }
 .xloo-features-img {
    padding-top: 5px;
