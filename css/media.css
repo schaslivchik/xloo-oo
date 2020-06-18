@@ -1,0 +1,34 @@
+
+
+@media (min-width: 1200px) {
+  .main-menu-trigger {
+    display: none;
+  }
+ }
+
+
+@media (max-width: 1200px) {
+  .main-menu-trigger {
+    display: none;
+  }
+ }
+
+@media (max-width: 991px) {
+  .main-menu-trigger {
+    display: flex;
+  }
+  .nav {
+    display: none;
+  }
+ }
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 576px) {
+
+}

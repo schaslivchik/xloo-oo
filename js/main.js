@@ -15,4 +15,17 @@ $('.tiltBox').hover(
   function () { $(this).removeClass('tiltZindex') }
 )
 
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 1) {
+    $('.xloo-nav').addClass("xloo-sticky-nav");
+  } else {
+    $('.xloo-nav').removeClass("xloo-sticky-nav");
+  }
+});
+
+$('.main-menu-trigger').click(function () {
+  $('body').toggleClass('scroll-hidden')
+  $(this).toggleClass('active-trigger');
+  $('.nav-xloo').toggleClass('active-menu');
+})
 
