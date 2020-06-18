@@ -60,10 +60,12 @@ bottom: 10px;
 width: 0;
 height: 2px;
 background-color: #93CB40;
+opacity: 0;
 transition: 0.3s;
 }
 .nav-xloo-link:not(:last-child):hover:before {
 width: calc(100% - 50px);
+opacity: 1;
 }
 
 .nav-xloo-link:hover {
