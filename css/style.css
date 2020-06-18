@@ -88,7 +88,7 @@ width: 100%;
 .xloo-block {
   min-height: calc(100vh - 86px);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   padding: 80px 0;
 }
@@ -97,7 +97,6 @@ width: 100%;
 display: flex;
 flex-flow: column;
 align-items: flex-start;
-justify-content: space-around;
 align-content: space-evenly;
 margin-top: 116px;
 }
@@ -105,7 +104,9 @@ margin-top: 116px;
 .xloo-block-cta.xloo-block {
 min-height: calc(100vh - 134px);
 }
-
+.block-middle {
+  margin: 50px 0;
+}
 .block-description-xloo {
 color: #ffffff;
 font-size: 56px;
@@ -130,6 +131,7 @@ position: relative;
   bottom: 0;
   margin: auto;
   background: url(../images/xloo-logo-bg.png) right center no-repeat;
+  background-size: auto;
 }
 .xloo-img {
 position: absolute;
@@ -174,6 +176,7 @@ text-transform: uppercase;
 }
 
 .main-menu-trigger {
+display:none;
 position: relative;
 width: 30px;
 height: 30px;
@@ -272,7 +275,7 @@ height: 100vh;
   line-height: 28px;
 }
 .xloo-features-item:first-child, .xloo-features-item:nth-child(2) {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 .wrap-block-btn {
   display: flex;
