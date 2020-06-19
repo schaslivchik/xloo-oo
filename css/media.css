@@ -54,6 +54,10 @@
   .nav-xloo-link-btn {
     font-size: 21px;
   }
+  .section-cta:before {
+    background: url(../images/xloo-logo-bg.png) right bottom no-repeat;
+    background-size: contain;
+  }
 }
 
 
