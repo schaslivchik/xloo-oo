@@ -269,12 +269,13 @@ height: 100vh;
 .xloo-features-content-title {
   font-size: 34px;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .xloo-features-content-text {
   font-size: 15px;
   opacity: 0.7;
   line-height: 28px;
+  font-weight: 300;
 }
 .xloo-features-item:first-child, .xloo-features-item:nth-child(2) {
   margin-bottom: 40px;
@@ -286,6 +287,7 @@ height: 100vh;
 .btn-xloo-block {
   color: #ffffff;
   font-size: 20px;
+  padding: 0;
 }
 .btn-xloo-block:hover {
   color: #93CB40;
@@ -456,4 +458,45 @@ margin: 0;
 .block-steps-item-last p{
   color:#19202B;
   opacity: 1;
+}
+.block-why-choose-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.why-choose-us-item {
+  color: #ffffff;
+  width: 31%;
+  margin-bottom: 40px;
+}
+.why-choose-us-item:nth-child(7),
+.why-choose-us-item:nth-child(8),
+.why-choose-us-item:nth-child(9) {
+  margin-bottom: 0;
+}
+
+.why-choose-us-item-title {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  min-height: 72px;
+}
+.why-choose-us-item-content {
+  text-align: justify;
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 28px;
+  font-weight: 300;
+}
+.why-choose-us-item-title h3 {
+  margin-left: 20px;
+}
+.why-choose-us {
+  position: relative;
+}
+.why-choose-us::before {
+
 }
