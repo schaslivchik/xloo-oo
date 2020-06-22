@@ -498,5 +498,11 @@ margin: 0;
   position: relative;
 }
 .why-choose-us::before {
-
+  content: '';
+  position: absolute;
+  background: url(../images/why-choose-us-bg.png)top right no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -15px;
 }
