@@ -564,3 +564,22 @@ margin: 0;
 .pills-right-part {
   width: 60%;
 }
+.web-development-img {
+  position: relative;
+}
+.web-development-img img {
+  display: block;
+  position: relative;
+  z-index: 3;
+}
+.web-development-img:before {
+  content: '';
+  position: absolute;
+  background: url(../images/DotsBG.png);
+  width: 149px;
+  height: 149px;
+  top: -30px;
+  right: 110px;
+  display: block;
+  z-index: 0;
+}
