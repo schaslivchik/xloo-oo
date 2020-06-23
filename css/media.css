@@ -46,6 +46,12 @@
   .block-arrow.block-arrow-down {
     width: 64px;
   }
+  .footer-nav-item {
+    padding: 10px;
+  }
+  .footer-nav-item:hover:before {
+    width: calc(100% - 20px);
+  }
  }
 
 
@@ -81,6 +87,19 @@
     width: 30%;
     margin: 15px 10px;
   }
+  .footer-cta {
+    text-align: center;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-nav {
+    justify-content: center;
+    margin: 60px 0;
+  }
+  .footer-contact-info {
+    justify-content: center;
+  }
  }
 
 @media (max-width: 768px) {
@@ -107,4 +126,22 @@
   .block-description-xloo br {
     display: none;
   }
+  .footer-nav {
+    flex-wrap: wrap;
+    height: inherit;
+    flex-direction: column;
+  }
+  .footer-contact-info-phone {
+    margin-right: 0;
+  }
+ .footer-contact-info {
+   flex-wrap: wrap;
+ }
+ .footer-contact-info-phone {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+ .footer-contact-info-social {
+   text-align: center;
+ }
 }
