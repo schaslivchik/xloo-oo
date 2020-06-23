@@ -600,3 +600,109 @@ margin: 0;
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #999BA4;
 }
+.container-footer {
+ color: #ffffff;
+ padding: 70px 0;
+}
+.footer-cta-bussines {
+  font-size: 24px;
+  line-height: 34px;
+  /* font-weight: 500; */
+  margin: 60px 0 40px;
+}
+.footer-cta-hire-us-text {
+  font-size: 24px;
+  line-height: 36px;
+}
+.footer-nav {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 58px;
+}
+.footer-nav-item {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+}
+.footer-logo {
+  height: 100px;
+}
+.footer-contact-info-title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.phone-item p {
+  font-weight: 700;
+  margin: 0;
+}
+.footer-contact-info-link {
+  color: #ffffff;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.footer-contact-info-link:hover {
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+.phone-canada {
+  margin: 15px 0 30px;
+}
+.footer-contact-info {
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-contact-info-phone{
+  margin-right: 60px;
+  padding: 0 20px;
+}
+.footer-contact-info-social {
+  padding: 0 20px;
+}
+.footer-xloo-email {
+  margin-bottom: 30px;
+}
+.btn-xloo-social {
+  height: 42px;
+  width: 42px;
+  border: 1px dotted #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-xloo-social-list {
+  padding: 0;
+  margin: 8px 0;
+  list-style-type: none;
+  display: flex;
+}
+.footer-xloo-social-list li:not(:last-child) {
+  margin-right: 20px;
+}
+.footer-nav-item {
+  position: relative;
+}
+.footer-nav-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-nav-item:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10px;
+  width: 0;
+  height: 2px;
+  background-color: #93CB40;
+  opacity: 0;
+  transition: 0.3s;
+}
+.footer-nav-item:hover:before {
+  width: calc(100% - 40px);
+  opacity: 1;
+}
