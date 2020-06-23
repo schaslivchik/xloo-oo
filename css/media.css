@@ -100,6 +100,30 @@
   .footer-contact-info {
     justify-content: center;
   }
+  .why-choose-us-item {
+    width: 48%;
+  }
+  .block-steps-item-arrow-right {
+    margin-right: 65px;
+  }
+  .block-steps-item {
+    width: 120px;
+  }
+  .block-steps-text {
+    font-size: 12px;
+  }
+  .block-steps-item-arrow-left {
+    margin-left: 70px;
+  }
+  .block-arrow.block-arrow-right {
+    right: -60px;
+  }
+  .block-arrow {
+    width: 57px;
+  }
+  .block-arrow.block-arrow-left {
+    left: -63px;
+}
  }
 
 @media (max-width: 768px) {
