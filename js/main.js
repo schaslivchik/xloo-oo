@@ -9,6 +9,16 @@
 //   scale: 1
 // });
 
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+  items: 4,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true
+});
+
 
 $('.tiltBox').hover(
   function () { $(this).addClass('tiltZindex') },

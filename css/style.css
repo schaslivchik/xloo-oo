@@ -119,21 +119,22 @@ font-weight: 600;
 .xloo-title-block {
 color: #93CB40;
 font-size: 34px;
+font-weight: 600;
 }
 .section-cta {
 position: relative;
 }
 .section-cta:before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  right: -15px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: url(../images/xloo-logo-bg.png) right center no-repeat;
-  background-size: auto;
+content: '';
+position: absolute;
+height: 100%;
+width: 100%;
+right: -15px;
+top: 0;
+bottom: 0;
+margin: auto;
+background: url(../images/xloo-logo-bg.png) right center no-repeat;
+background-size: auto;
 }
 .xloo-img {
 position: absolute;
@@ -582,4 +583,20 @@ margin: 0;
   right: 110px;
   display: block;
   z-index: 0;
+}
+.xloo-carousel {
+  background: #F4F5F8;
+  padding: 80px 0;
+}
+.owl-carousel .owl-item img {
+  width: inherit;
+  max-width: 100%;
+}
+.owl-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #999BA4;
 }
