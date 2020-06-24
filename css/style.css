@@ -508,6 +508,10 @@ margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
+.block-steps-top-part .block-steps-item:first-child {
+  background: transparent;
+  border: 2px solid #93cb40;
+}
 .nav-xloo-tab {
   display: flex;
   justify-content: space-between;
