@@ -123,6 +123,12 @@
   }
   .block-arrow.block-arrow-left {
     left: -63px;
+  }
+  .block-steps-text {
+    padding: 0 10px 10px;
+  }
+  .why-choose-us-item:nth-child(7), .why-choose-us-item:nth-child(8) {
+    margin-bottom: 40px;
 }
  }
 
@@ -130,8 +136,7 @@
   .block-description-xloo {
     font-size: 42px;
     line-height: 70px;
-}
-  
+  }
   .nav-xloo-link-btn {
     font-size: 21px;
   }
@@ -139,6 +144,53 @@
     background: url(../images/xloo-logo-bg.png) right bottom no-repeat;
     background-size: contain;
   }
+  .why-choose-us-item {
+    width: 100%;
+  }
+  .why-choose-us-item-title br {
+    display: none;
+  }
+  .why-choose-us-item:nth-child(7), .why-choose-us-item:nth-child(8){
+    margin-bottom: 40px;
+  }
+ 
+  .block-steps-item-arrow-right,
+  .block-steps-item-arrow-left {
+    margin: 0;  
+  }
+  .block-arrow {
+    display: none;
+  }
+  .block-steps-text {
+    font-size: 21px;
+  }
+.border-radius-right, .border-radius-left {
+  border-radius: 0;
+}
+.block-steps-bottom-part {
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.block-steps-item-arrow-down {
+  margin-bottom: 0;
+}
+.block-steps-item {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: -1px;
+  box-shadow: none;
+}
+.block-steps-top-part .block-steps-item:first-child {
+  border-radius: 8px 8px 0 0;
+  border-color: #93CB40;
+  z-index: 10;
+}
+.block-steps-bottom-part .block-steps-item:first-child {
+  border-radius: 0 0 8px 8px;
+}
+.block-steps-text br {
+  display: none;
+}
 }
 
 

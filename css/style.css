@@ -431,7 +431,7 @@ height: 100vh;
 width: 100%;
 margin: 0;
 }
-.block-steps-item:first-child {
+.block-steps-top-part.block-steps-item:first-child {
   border: 2px solid #93CB40;
   background: transparent;
 }
@@ -455,6 +455,9 @@ margin: 0;
   align-items: flex-end;
   justify-content: flex-end;
   text-align: right;
+}
+.block-steps-item-last {
+  background: #93cb40;
 }
 .block-steps-item-last p{
   color:#19202B;
@@ -506,6 +509,10 @@ margin: 0;
   width: 100%;
   top: 0;
   right: -15px;
+}
+.block-steps-top-part, .block-steps-bottom-part {
+  display: flex;
+  flex-wrap: wrap;
 }
 .nav-xloo-tab {
   display: flex;
@@ -607,7 +614,6 @@ margin: 0;
 .footer-cta-bussines {
   font-size: 24px;
   line-height: 34px;
-  /* font-weight: 500; */
   margin: 60px 0 40px;
 }
 .footer-cta-hire-us-text {
