@@ -210,6 +210,10 @@
   border-radius: 30px;
   flex-direction: column;
 }
+.nav-pills .xloo-nav-link {
+  font-size: 16px;
+}
+
 }
 
 
