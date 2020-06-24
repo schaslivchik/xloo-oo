@@ -189,10 +189,27 @@
   margin-bottom: 0;
 }
 .block-steps-item {
+  position: relative;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: -1px;
   box-shadow: none;
+  margin-bottom: 20px;
+}
+
+.block-steps-item:not(:first-child):before {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  bottom: -21px;
+  border-top: 10px solid rgba(255, 255, 255, 0.3);
+}
+.block-steps-top-part .block-steps-item:first-child:before {
+  content: '';
+  position: absolute;
+  border: 10px solid transparent;
+  bottom: -21px;
+  border-top: 10px solid #93CB40;
 }
 .block-steps-top-part .block-steps-item:first-child {
   border-radius: 8px 8px 0 0;
@@ -213,7 +230,12 @@
 .nav-pills .xloo-nav-link {
   font-size: 16px;
 }
-
+.block-steps-item {
+  height: inherit;
+}
+.block-steps-number {
+  font-size: 34px;
+}
 }
 
 
