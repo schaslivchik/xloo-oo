@@ -52,6 +52,23 @@
   .footer-nav-item:hover:before {
     width: calc(100% - 20px);
   }
+  .wrap-pills-content {
+    flex-wrap: wrap;
+  }
+  .pills-left-part,
+  .pills-right-part {
+    width: 100%;
+  }
+  .pills-left-part {
+    order: 2;
+  }
+  .web-development-img img {
+    max-width: 100%;
+    margin: 0 auto 40px;
+  }
+  .pills-left-part-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
  }
 
 
@@ -60,7 +77,7 @@
   .main-menu-trigger {
     display: flex;
   }
-  .nav {
+  .nav-xloo {
     display: none;
   }
   .nav-xloo-link {
@@ -85,7 +102,7 @@
   }
   .block-icon-development-item {
     width: 30%;
-    margin: 15px 10px;
+    margin: 15px 30px;
   }
   .footer-cta {
     text-align: center;
@@ -129,7 +146,7 @@
   }
   .why-choose-us-item:nth-child(7), .why-choose-us-item:nth-child(8) {
     margin-bottom: 40px;
-}
+ }
  }
 
 @media (max-width: 768px) {
