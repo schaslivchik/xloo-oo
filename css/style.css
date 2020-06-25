@@ -738,6 +738,7 @@ z-index: 5555;
  display: flex;
  align-items: center;
  justify-content: center;
+ overflow-y: scroll;
 }
 .xloo-modal.modal-open {
   bottom: 0;
@@ -818,4 +819,7 @@ font-size: 16px;
 .btn.focus, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(147, 203, 64, 0.2);
+}
+.xloo-modal textarea {
+  min-height: 44px;
 }
