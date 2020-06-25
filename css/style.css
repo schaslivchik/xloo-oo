@@ -803,3 +803,15 @@ font-size: 16px;
  color: #93cb40; 
  text-decoration: none;
 }
+.xloo-message-form .form-row>[class*=col-] {
+  padding-right: 10px;
+}
+.xloo-form-require {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #ec5b51;
+}
