@@ -47,6 +47,7 @@ $('.btn-send-message').click(function () {
 });
 
 $('.xloo-close-modal').click(function () {
+  event.preventDefault();
   $('body').removeClass('scroll-hidden')
   $('.xloo-modal').removeClass('modal-open');
 });

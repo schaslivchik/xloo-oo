@@ -743,7 +743,60 @@ z-index: 1041;
 position: absolute;
 right: 20px;
 top: 20px;
+color: #9e9e9e;
+font-size: 16px;
 }
 .xloo-message-form {
   width: 600px;
+}
+.title-xloo-form {
+  margin-bottom: 60px;
+}
+.title-xloo-form h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.title-xloo-form p {
+  color: #9e9e9e;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px 0 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #212529;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: transparent;
+  border-bottom-color: #93CB40;
+  outline: 0;
+  box-shadow: none;
+}
+.xloo-btn-form {
+  display: inline-block;
+  padding: 10px 25px;
+  color: #19202b;
+  border: 1px solid #19202b;
+  border-radius: 30px;
+  background: #ffffff;
+}
+.xloo-btn-form:hover {
+  background: #93cb40;
+  border: 1px solid transparent;
+}
+.wrap-form-btn {
+  margin: 60px 0 0;
+}
+.xloo-close-modal:hover {
+ color: #93cb40; 
+ text-decoration: none;
 }
