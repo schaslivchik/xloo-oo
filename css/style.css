@@ -30,8 +30,11 @@ border-radius: 30px;
 background: #93CB40;
 color: #000000;
 }
-
+.container {
+ position: relative;
+}
 .container-dark {
+position: relative;
 background: rgb(14, 20, 28);
 background: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
 overflow-x: hidden;
