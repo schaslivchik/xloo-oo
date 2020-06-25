@@ -166,7 +166,7 @@ padding: 15px 0;
 top: 0;
 right: 0;
 left: 0;
-z-index: 1040;
+z-index: 5040;
 transition: 0.3s;
 }
 .xloo-sticky-nav {
@@ -725,7 +725,7 @@ bottom: 100%;
 position: fixed;
 left: 0;
 text-align: left;
-z-index: 1041;
+z-index: 5555;
 }
 .xloo-modal .body {
  padding: 40px;
