@@ -5,7 +5,10 @@
 body {
 font-family: 'Muli', sans-serif;
 }
-
+header {
+  position: relative;
+  z-index: 5050;
+}
 .primary-xloo-color {
 color: #93CB40;
 }
@@ -29,10 +32,6 @@ border-radius: 30px;
 .primary-xloo-btn-outline:hover {
 background: #93CB40;
 color: #000000;
-}
-.container {
- position: relative;
- z-index: 1;
 }
 .container-dark {
 position: relative;

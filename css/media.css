@@ -196,7 +196,7 @@
   box-shadow: none;
   margin-bottom: 20px;
 }
-.block-steps-item:first-child {
+.block-steps-bottom-part .block-steps-item:first-child {
   margin-bottom: 0;
 }
 .block-steps-item:not(:first-child):before {
