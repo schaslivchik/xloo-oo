@@ -7,7 +7,7 @@ font-family: 'Muli', sans-serif;
 }
 header {
   position: relative;
-  z-index: 5050;
+  z-index: 999999;
 }
 .primary-xloo-color {
 color: #93CB40;
