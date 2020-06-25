@@ -270,4 +270,45 @@
  .footer-contact-info-social {
    text-align: center;
  }
+ .xloo-close-modal {
+   right: 10px;
+   top: 10px;
+ }
+ .title-xloo-form h3 {
+   font-size: 21px;
+ }
+ .title-xloo-form p {
+   font-size: 14px;
+ }
+ .title-xloo-form {
+   margin-bottom: 0;
+ }
+ .wrap-form-btn {
+  margin: 10px 0 0;
+  text-align: center;
+}
+.xloo-features-content-title {
+  font-size: 28px;
+  text-align: center;
+}
+.xloo-features-content-title br {
+  display: none;
+}
+.xloo-features-item {
+  flex-wrap: wrap;
+}
+.xloo-features-content {
+  margin-left: 0;
+}
+.xloo-features-img {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.software-development-title {
+  font-size: 32px;
+}
+.xloo-title-block {
+  text-align: center;
+}
 }

@@ -166,8 +166,8 @@ padding: 15px 0;
 top: 0;
 right: 0;
 left: 0;
-z-index: 1030;
-transition: .3s;
+z-index: 1040;
+transition: 0.3s;
 }
 .xloo-sticky-nav {
 background: rgba(31, 39, 51, 0.9);
