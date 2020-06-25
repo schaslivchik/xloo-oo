@@ -40,17 +40,6 @@ $('.main-menu-trigger').click(function () {
   $('.nav-xloo').toggleClass('active-menu');
 })
 
-// $('.btn-send-message').click(function () {
-//   event.preventDefault();
-//   $('body').toggleClass('scroll-hidden')
-//   $('.xloo-modal-form').toggleClass('active-form')
-// })
-// $('.xloo-modal-form-close').click(function () {
-//   event.preventDefault();
-//   $('body').removeClass('scroll-hidden');
-//   $('.xloo-modal-form').removeClass('active-form')
-// })
-
 $('.btn-send-message').click(function () {
   event.preventDefault();
   $('body').addClass('scroll-hidden')
@@ -60,4 +49,11 @@ $('.btn-send-message').click(function () {
 $('.xloo-close-modal').click(function () {
   $('body').removeClass('scroll-hidden')
   $('.xloo-modal').removeClass('modal-open');
+});
+
+$(document).keyup(function (e) {
+  if (e.keyCode === 27) {
+    $('body').removeClass('scroll-hidden')
+    $('.xloo-modal').removeClass('modal-open');
+  }
 });
