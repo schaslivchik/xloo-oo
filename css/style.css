@@ -862,3 +862,35 @@ opacity: 0;
   color: #93cb40;
   opacity: 1;
 }
+.btn-attach {
+  transform: rotate(90deg);
+}
+
+.form-control-file {
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+}
+.file-upload {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.ico-upload {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transform: rotate(90deg);
+}
+.filename {
+  background: none;
+  border: none;
+  width: 100%;
+}

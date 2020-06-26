@@ -445,10 +445,17 @@
           <div class="form-row">
             <div class="form-group col-12">
               <textarea class="form-control" id="formControlTextarea" rows='1' placeholder="About Your Project"></textarea>
-              <div class="upload-btn-wrapper">
+              <!-- <div class="upload-btn-wrapper">
                 <button class="btn btn-attach"><i class="fa fa-paperclip" aria-hidden="true"></i></button>
                 <input type="file" class="form-control-file" id="exampleFormControlFile1" lang="en" placeholder="Choose" multiple>
+              </div> -->
+              <div class="file-upload">
+                <label>
+                  <input type="file" name="userfile[]" id="userfile" class="form-control-file" accept="image/*">
+                  <span class="ico-upload"><i class="fa fa-paperclip" aria-hidden="true"></i></span>
+                </label>
               </div>
+              <input type="text" id="filename" class="filename" disabled="">
             </div>
           </div>
 
