@@ -888,6 +888,7 @@ opacity: 0;
   justify-content: center;
   height: 100%;
   transform: rotate(90deg);
+  cursor: pointer;
 }
 .filename {
   background: none;
