@@ -177,6 +177,7 @@ background: rgba(31, 39, 51, 0.9);
 padding: 0;
 }
 .nav-xloo {
+  align-items: center;
 justify-content: flex-end;
 text-transform: uppercase;
 }
@@ -843,4 +844,21 @@ position: absolute;
 height: 100%;
 width: 100%;
 opacity: 0;
+}
+.xloo-copywrite {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container-footer {
+  padding: 70px 0 10px;
+}
+.xloo-link {
+  color: #93cb40;
+  opacity: 0.5;
+}
+.xloo-link:hover {
+  color: #93cb40;
+  opacity: 1;
 }
