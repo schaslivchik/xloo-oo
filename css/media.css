@@ -241,6 +241,9 @@
 .block-steps-number {
   font-size: 34px;
 }
+#pp-nav.right {
+  right: -7px;
+}
 }
 
 
@@ -311,4 +314,5 @@
 .xloo-title-block {
   text-align: center;
 }
+
 }
