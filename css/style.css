@@ -34,8 +34,8 @@ background: #93CB40;
 color: #000000;
 }
 .container-dark {
-background: rgb(14, 20, 28);
-background: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
+/* background-color: rgb(14, 20, 28); */
+background-image: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
 }
 .nav-xloo-link {
 display: block;
@@ -915,4 +915,11 @@ opacity: 0;
 }
 .block-steps-bottom-part {
   margin-bottom: 15px;
+}
+#pp-nav li .active span, .pp-slidesNav .active span {
+  background:#505c6f;
+}
+*::selection {
+  color: #ffffff; 
+  background: #93CB40; 
 }

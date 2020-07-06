@@ -3,7 +3,7 @@ $(document).ready(function () {
     menu: null,
     direction: 'vertical',
     verticalCentered: true,
-    sectionsColor: ['#000000', '#000000', '#ffffff', '#000000', '#000', '#ffffff'],
+    sectionsColor: ['rgba(44, 53, 68, 1)', '#000000', '#ffffff', '#000000', '#000', '#ffffff'],
     anchors: [],
     scrollingSpeed: 300,
     easing: 'swing',
@@ -12,7 +12,7 @@ $(document).ready(function () {
     css3: true,
     navigation: {
       'textColor': '#000',
-      'bulletsColor': '#000',
+      'bulletsColor': '#505c6f',
       'position': 'right',
       'tooltips': ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7']
     },
