@@ -615,14 +615,14 @@ color: #ffffff;
 padding: 70px 0;
 }
 .footer-cta-bussines {
-font-size: 24px;
-line-height: 34px;
-margin: 60px 0 40px;
+font-size: 28px;
+line-height: 36px;
+margin: 60px 0 45px;
 }
 .footer-cta-hire-us-text {
-font-size: 24px;
+font-size: 28px;
 line-height: 36px;
-margin-bottom: 45px;
+margin-bottom: 30px;
 }
 .footer-nav {
 height: 100px;
@@ -674,7 +674,7 @@ padding: 0 20px;
 padding: 0 20px;
 }
 .footer-xloo-email {
-margin-bottom: 30px;
+margin-bottom: 45px;
 }
 .btn-xloo-social {
 height: 42px;
@@ -901,4 +901,10 @@ opacity: 0;
   font-size: 28px;
   line-height: 36px;
   color:#0E141C;
+}
+
+.footer-contact-info-title {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 30px;
 }
