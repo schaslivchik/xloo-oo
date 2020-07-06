@@ -14,7 +14,7 @@ $(document).ready(function () {
       'textColor': '#000',
       'bulletsColor': '#000',
       'position': 'right',
-      'tooltips': ['section1', 'section2', 'section3', 'section4']
+      'tooltips': ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7']
     },
     normalScrollElements: null,
     normalScrollElementTouchThreshold: 5,
