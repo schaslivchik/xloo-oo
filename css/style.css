@@ -123,15 +123,13 @@ color: #93CB40;
 font-size: 34px;
 font-weight: 600;
 }
-.section-cta {
-position: relative;
-}
+
 .section-cta:before {
 content: '';
 position: absolute;
 height: 100%;
 width: 100%;
-right: -15px;
+right: 0;
 top: 0;
 bottom: 0;
 margin: auto;
@@ -300,13 +298,11 @@ margin-left: 10px;
 .xloo-features-img {
   padding-top: 5px;
 }
-.xloo-what-we-do {
-position: relative;
-}
+
 .xloo-what-we-do:before {
 content: '';
 position: absolute;
-left: -15px;
+left: 0;
 bottom: 100px;
 background: url(../images/o-img.png) bottom left no-repeat;
 width: 100%;
@@ -916,4 +912,7 @@ opacity: 0;
 ::-webkit-scrollbar {
   width: 0px;
   background-color: #F5F5F5;
+}
+.block-steps-bottom-part {
+  margin-bottom: 15px;
 }
