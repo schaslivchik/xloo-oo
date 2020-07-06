@@ -34,10 +34,8 @@ background: #93CB40;
 color: #000000;
 }
 .container-dark {
-position: relative;
 background: rgb(14, 20, 28);
 background: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
-overflow-x: hidden;
 }
 .nav-xloo-link {
 display: block;
@@ -91,11 +89,12 @@ width: 100%;
 }
 
 .xloo-block {
-min-height: calc(100vh - 86px);
 display: flex;
 justify-content: center;
 flex-direction: column;
 padding: 80px 0;
+min-height: calc(100vh - 116px);
+margin-top: 116px;
 }
 
 .xloo-block-cta {
@@ -107,7 +106,7 @@ margin-top: 116px;
 }
 
 .xloo-block-cta.xloo-block {
-min-height: calc(100vh - 134px);
+min-height: calc(100vh - 115px);
 }
 .block-middle {
 margin: 50px 0;
@@ -173,8 +172,9 @@ z-index: 5040;
 transition: 0.3s;
 }
 .xloo-sticky-nav {
-background: rgba(31, 39, 51, 0.9);
+background: rgba(31, 39, 51, 1);
 padding: 0;
+/* transition: 0.3s; */
 }
 .nav-xloo {
   align-items: center;
@@ -506,7 +506,7 @@ background: url(../images/why-choose-us-bg.png)top right no-repeat;
 height: 100%;
 width: 100%;
 top: 0;
-right: -15px;
+right: 0;
 }
 .block-steps-top-part, .block-steps-bottom-part {
 display: flex;
@@ -895,4 +895,10 @@ opacity: 0;
   border: none;
   width: 100%;
   padding: 10px 0;
+}
+
+.title-black-on-white {
+  font-size: 28px;
+  line-height: 36px;
+  color:#0E141C;
 }
