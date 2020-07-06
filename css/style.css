@@ -522,7 +522,7 @@ justify-content: space-between;
 border: 1px solid rgba(0, 0, 0, 0.15);
 padding: 4px;
 border-radius: 50px;
-margin-bottom: 60px;
+margin-bottom: 50px;
 }
 .nav-pills .xloo-nav-link {
 border-radius: 50px;
@@ -559,7 +559,7 @@ display: flex;
 align-items: flex-start;
 }
 .pills-left-part-item:not(:last-child) {
-margin-bottom: 60px;
+margin-bottom: 50px;
 }
 .pills-left-part-item-content {
 margin: 0;
