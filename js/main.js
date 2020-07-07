@@ -29,7 +29,15 @@
 //     afterRender: function () { },
 //   });
 // });
+$(function () {
 
+  // Default
+  jQuery.scrollSpeed(100, 800);
+
+  // Custom Easing
+  jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+
+});
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: '13AD7F77-A47C4568-AB432005-993C74FE',
   //Навигация

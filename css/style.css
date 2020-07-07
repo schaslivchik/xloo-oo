@@ -928,3 +928,6 @@ opacity: 0;
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   background: #505c6f;
 }
+.block-why-choose-us {
+  scroll-behavior: smooth;
+}
