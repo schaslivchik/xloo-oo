@@ -931,3 +931,7 @@ opacity: 0;
 .block-why-choose-us {
   scroll-behavior: smooth;
 }
+.btn-xloo-block.focus, .btn-xloo-block:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(147, 203, 64, 0);
+}
