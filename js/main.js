@@ -29,12 +29,6 @@
 //     afterRender: function () { },
 //   });
 // });
-(function ($) {
-  $(window).on("load", function () {
-    $(".fp-scrollable").mCustomScrollbar();
-  });
-})(jQuery);
-
 
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: '13AD7F77-A47C4568-AB432005-993C74FE',
