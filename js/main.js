@@ -41,37 +41,40 @@ var myFullpage = new fullpage('#fullpage', {
   navigationTooltips: ['firstSlide', 'secondSlide'],
   showActiveTooltip: false,
   slidesNavigation: false,
-  slidesNavPosition: 'bottom',
+  slidesNavPosition: 'top',
 
   //Скроллинг
   css3: true,
-  scrollingSpeed: 1000,
+  scrollingSpeed: 700,
+  fitToSectionDelay: 700,
   autoScrolling: true,
+  scrollHorizontally: true,
   fitToSection: true,
-  fitToSectionDelay: 1000,
+  continuousVertical: false,
+  continuousHorizontal: false,
+
   scrollBar: false,
   easing: 'easeInOutCubic',
   easingcss3: 'ease',
   loopBottom: false,
   loopTop: false,
   loopHorizontal: true,
-  continuousVertical: false,
-  continuousHorizontal: false,
   interlockedSlides: false,
   offsetSections: false,
   resetSliders: false,
   fadingEffect: false,
   normalScrollElements: '',
   scrollOverflow: true,
-  scrollOverflowReset: null,
+  scrollOverflowReset: false,
   scrollOverflowOptions: null,
   touchSensitivity: 15,
   bigSectionsDestination: null,
 
+
   //Доступ
   keyboardScrolling: true,
   animateAnchor: true,
-  recordHistory: true,
+  recordHistory: false,
 
   //Дизайн
   controlArrows: true,
@@ -82,15 +85,14 @@ var myFullpage = new fullpage('#fullpage', {
   fixedElements: '#header, .footer',
   responsiveWidth: 0,
   responsiveHeight: 0,
-  responsiveSlides: false,
+  responsiveSlides: true,
   parallaxOptions: { type: 'reveal', percentage: 62, property: 'translate' },
-  cards: false,
+  cards: true,
   cardsOptions: { perspective: 100, fadeContent: true, fadeBackground: true },
 
   //Настроить селекторы
   sectionSelector: '.section',
   slideSelector: '.slide',
-
   lazyLoading: true,
 
   //события
@@ -102,7 +104,10 @@ var myFullpage = new fullpage('#fullpage', {
   afterResponsive: function (isResponsive) { },
   afterSlideLoad: function (section, origin, destination, direction) { },
   onSlideLeave: function (section, origin, destination, direction) { }
+
 });
+
+
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
