@@ -935,3 +935,9 @@ opacity: 0;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(147, 203, 64, 0);
 }
+.fp-scroller {
+  transition-duration: 0.8s !important;
+}
+.iScrollIndicator {
+  display: none !important;
+}
