@@ -38,7 +38,7 @@ var myFullpage = new fullpage('#fullpage', {
   anchors: ['WeAreXloo', 'WhatWeDo', 'Development', 'HowWeDoIt', 'WhyChooseUs', 'OurWorks', 'TrustedBy', 'Footer'],
   navigation: true,
   navigationPosition: 'right',
-  navigationTooltips: ['firstSlide', 'secondSlide'],
+  navigationTooltips: [],
   showActiveTooltip: false,
   slidesNavigation: false,
   slidesNavPosition: 'top',
