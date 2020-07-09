@@ -41,15 +41,16 @@ background-image: linear-gradient(45deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68
 display: block;
 position: relative;
 padding: 10px 25px;
-color: #d2d3d6;
+color: #ffffff;
 font-size: 16px;
 font-weight: 600;
 transition: 0.3s;
 }
 .nav-xloo-link-btn {
-color: #d2d3d6;
+color: #ffffff;
 font-size: 16px;
 font-weight: 600;
+margin-left: 25px;
 }
 .nav-xloo-link:not(:last-child):before {
 content: '';
@@ -173,7 +174,7 @@ transition: 0.3s;
 }
 .xloo-sticky-nav {
 background: rgba(31, 39, 51, 1);
-padding: 0;
+padding: 5px 0;
 /* transition: 0.3s; */
 }
 .nav-xloo {
