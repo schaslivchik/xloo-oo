@@ -331,10 +331,14 @@ display: flex;
 justify-content: space-between;
 }
 .block-icon-development-item {
-display: flex;
-flex-wrap: wrap;
-align-items: flex-end;
-justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  width: 20%;
+}
+.block-icon-development-item img {
+  height: 120px;
 }
 .block-icon-development-item > p {
 width: 100%;
