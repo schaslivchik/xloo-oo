@@ -595,6 +595,8 @@ display: block;
 z-index: 0;
 }
 .xloo-carousel {
+display: flex;
+align-items: center;
 background: #F4F5F8;
 padding: 80px 0;
 height: 50%;
