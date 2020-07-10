@@ -600,6 +600,7 @@ z-index: 0;
 .xloo-carousel {
 background: #F4F5F8;
 padding: 80px 0;
+height: 50%;
 }
 .owl-carousel .owl-item img {
 width: inherit;
@@ -614,8 +615,11 @@ justify-content: center;
 background: #999BA4;
 }
 .container-footer {
-color: #ffffff;
-padding: 70px 0;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 70px 0 124px;
+  height: 50%;
 }
 .footer-cta-bussines {
 font-size: 28px;
@@ -623,7 +627,7 @@ line-height: 36px;
 margin: 60px 0 45px;
 }
 .footer-cta-hire-us-text {
-font-size: 28px;
+font-size: 26px;
 line-height: 36px;
 margin-bottom: 30px;
 }
@@ -667,11 +671,10 @@ margin-bottom: 30px;
 .footer-contact-info {
 font-size: 16px;
 display: flex;
-justify-content: flex-end;
+justify-content: space-between;
 }
 .footer-contact-info-phone{
-margin-right: 60px;
-padding: 0 20px;
+
 }
 .footer-contact-info-social {
 padding: 0 20px;
@@ -849,13 +852,13 @@ width: 100%;
 opacity: 0;
 }
 .xloo-copywrite {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-top: 70px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
-}
-.container-footer {
-  padding: 70px 0 10px;
 }
 .xloo-link {
   color: #93cb40;
