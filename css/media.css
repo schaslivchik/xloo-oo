@@ -1,8 +1,15 @@
- @media (max-width: 1440px) {
+@media (max-width: 1536px) {
+  .block-description-xloo {
+    font-size: 46px;
+    line-height: 62px;
+  } 
+}
+@media (max-width: 1440px) {
   .block-description-xloo {
     font-size: 36px;
     line-height: 52px;
-  }
+  } 
+ 
   .xloo-block {
     padding: 60px 0;
   }

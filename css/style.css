@@ -90,7 +90,6 @@ width: 100%;
 
 .xloo-block {
   margin-top: 60px;
-  padding: 60px 0;
 /* display: flex;
 justify-content: center;
 flex-direction: column;
@@ -114,10 +113,8 @@ min-height: calc(100vh - 115px);
 margin: 50px 0;
 }
 .block-description-xloo {
-color: #ffffff;
-font-size: 56px;
-line-height: 84px;
-font-weight: 600;
+  font-size: 56px;
+  font-weight: 600;
 }
 
 .xloo-title-block {
