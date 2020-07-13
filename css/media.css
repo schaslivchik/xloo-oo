@@ -2,15 +2,29 @@
   .block-description-xloo {
     font-size: 46px;
     line-height: 62px;
+  }
+  .xloo-carousel {
+    padding: 40px 0 0 0;
   } 
+  .xloo-block {
+    margin-top: 96px;
+  }
+  .pills-left-part-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .pills-left-part, .pills-right-part {
+    width: 50%;
+  }
+  .wrap-pills-content {
+    height: 340px;
+  }
 }
 @media (max-width: 1440px) {
   .block-description-xloo {
     font-size: 36px;
     line-height: 52px;
   } 
- 
-  .xloo-block {
+   .xloo-block {
     padding: 60px 0;
   }
   .block-middle {
@@ -20,16 +34,88 @@
     background-size: contain;
   }
  }
-
- @media (min-width: 1200px) {
-  .main-menu-trigger {
-    display: none;
-  }
+@media (max-width: 1366px) {
+  .xloo-features-content-title {
+    font-size: 24px;
+    margin-bottom: 15px;
  }
+ .xloo-features-item:first-child, .xloo-features-item:nth-child(2) {
+  margin-bottom: 30px;
+}
+.block-middle {
+  margin: 25px 0;
+}
+.xloo-secondary-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+.xloo-block {
+  padding: 40px 0;
+}
+.xloo-secondary-text {
+  margin-bottom: 0px;
+}
+.block-steps-item-arrow-down {
+  margin-bottom: 40px;
+}
+.block-steps-item {
+  height: 140px;
+}
+.block-steps-text {
+  font-size: 14px;
+}
+.block-arrow.block-arrow-down {
+  bottom: -90px;
+  width: 20px;
+}
+.block-arrow.block-arrow-down:before {
+  right: -8px;
+  top: 64px;
+}
+.title-trusted-block {
+  margin: 70px 0 0;
+}
+.xloo-title-block {
+  font-size: 28px;
+}
+.owl-carousel .owl-item img {
+  height: 100px;
+}
+.owl-carousel.owl-loaded {
+  margin-bottom: 10px;
+}
+.footer-contact-info-link {
+  font-size: 16px;
+}
+.phone-item p, .footer-xloo-email p {
+  font-size: 16px;
+}
+.footer-contact-info-title {
+  font-size: 24px;
+}
+.footer-cta-hire-us-text {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 44px;
+}
+.btn-xloo-social {
+  height: 36px;
+  width: 36px;
+}
+.software-development-title {
+  font-size: 32px;
+}
+.section-cta:before {
+  background-size: 50%;
+}
+.why-choose-us-item-title h3 {
+  margin-left: 20px;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+}
+
 @media (max-width: 1200px) {
-  .main-menu-trigger {
-    display: none;
-  }
   .block-steps-item-arrow-right {
     margin-right: 90px;
   }

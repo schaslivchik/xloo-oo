@@ -111,12 +111,28 @@ var myFullpage = new fullpage('#fullpage', {
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-  items: 4,
+
   loop: true,
   margin: 10,
+  dots: false,
   autoplay: true,
   autoplayTimeout: 5000,
-  autoplayHoverPause: true
+  autoplayHoverPause: true,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1366: {
+      items: 5,
+    },
+    1536: {
+      items: 4
+    }
+  }
 });
 
 
