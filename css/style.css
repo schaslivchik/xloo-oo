@@ -619,7 +619,7 @@ background: #999BA4;
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding: 70px 0 124px;
+  margin: 70px 0 124px;
   height: 50%;
 }
 .footer-cta-bussines {

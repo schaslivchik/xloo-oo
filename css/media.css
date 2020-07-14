@@ -308,8 +308,10 @@
   .xloo-block-cta.xloo-block {
     padding: inherit;
     justify-content: center;
-    padding-top: 96px;
     margin: 0;
+}
+.xloo-title-block {
+  margin-top: 96px;
 }
   .block-arrow.block-arrow-left {
     display: none;
