@@ -411,10 +411,16 @@
 #pp-nav.right {
   right: -7px;
 }
+.block-icon-development-item {
+  width: 35%;
+}
 }
 
 
 @media (max-width: 576px) {
+  .block-icon-development-item {
+    width: 100%;
+  }
   .footer-xloo-social {
     text-align: center;
   }
