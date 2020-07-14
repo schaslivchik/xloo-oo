@@ -305,6 +305,12 @@
  }
 
 @media (max-width: 768px) {
+  .xloo-block-cta.xloo-block {
+    padding: inherit;
+    justify-content: center;
+    padding-top: 96px;
+    margin: 0;
+}
   .block-arrow.block-arrow-left {
     display: none;
   }
@@ -409,6 +415,15 @@
 
 
 @media (max-width: 576px) {
+  .footer-xloo-social {
+    text-align: center;
+  }
+  .footer-contact-info > div {
+    width: 100%;
+  }
+  .footer-xloo-social-list {
+    justify-content: center;
+  }
   .block-description-xloo {
     font-size: 24px;
     line-height: 40px;
