@@ -296,10 +296,13 @@
   bottom: -100px;
   width: 50px;
 }
-.fp-section.fp-table, .fp-slide.fp-table,
+/* .fp-section.fp-table, .fp-slide.fp-table,
 .fp-tableCell {
   height: 100% !important;
   padding: 0 !important;
+} */
+.xloo-carousel, .container-footer {
+  height: inherit;
 }
 
  }
