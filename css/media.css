@@ -35,6 +35,9 @@
   }
  } */
 @media (max-width: 1536px) {
+  .xloo-block {
+    margin-top: 96px;
+  }
   .block-description-xloo {
     font-size: 42px;
   }
@@ -116,6 +119,15 @@
   font-size: 24px;
   margin-bottom: 0;
 }
+.block-steps-bottom-part {
+  margin-bottom: 0;
+}
+.xloo-carousel {
+  padding: 40px 0 0 0;
+} 
+.block-icon-development-item > p {
+  margin: 20px 0 0 0;
+}
 }
 
 @media (max-width: 1200px) {
@@ -135,9 +147,7 @@
   .block-arrow.block-arrow-left {
     left: -85px;
   }
-  .block-arrow.block-arrow-down {
-    width: 64px;
-  }
+
   .footer-nav-item {
     padding: 10px;
   }
@@ -161,6 +171,16 @@
   .pills-left-part-item:not(:last-child) {
     margin-bottom: 30px;
   }
+  .xloo-features-content-title {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.why-choose-us-item-title {
+  margin-bottom: 5px;
+}
+.why-choose-us-item-title h3 {
+  font-size: 21px;
+}
  }
 
 @media (max-width: 991px) {
@@ -184,14 +204,14 @@
      margin-bottom: 40px;
   }
   .xloo-block {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   .block-icon-development {
     flex-wrap: wrap;
     justify-content: center;
   }
   .block-icon-development-item {
-    width: 30%;
+    width: 24%;
     margin: 15px 30px;
   }
   .footer-cta {
@@ -240,6 +260,19 @@
  .nav-pills .xloo-nav-link {
    font-size: 14px;
  }
+ .block-description-xloo {
+  font-size: 32px;
+}
+.xloo-block-cta.xloo-block {
+  padding: 80px 0;
+  margin-top: 96px;
+}
+.xloo-block {
+  margin-top: 0;
+}
+.nav-xloo-link-btn {
+  margin: 20px 0 0 0;
+}
  }
 
 @media (max-width: 768px) {

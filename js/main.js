@@ -123,8 +123,11 @@ owl.owlCarousel({
     0: {
       items: 1,
     },
-    600: {
-      items: 3,
+    768: {
+      items: 4,
+    },
+    991: {
+      items: 5,
     },
     1366: {
       items: 5,
