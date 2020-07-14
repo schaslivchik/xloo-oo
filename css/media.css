@@ -225,8 +225,20 @@
     margin: 60px 0;
   }
   .footer-contact-info {
-    justify-content: center;
+    justify-content: space-around;
   }
+  .footer-cta-hire-us-text {
+    margin-bottom: 20px;
+  }
+  .footer-cta-hire-us {
+    margin-bottom: 30px;
+  }
+  .xloo-carousel {
+    padding: 40px 0;
+}
+.title-trusted-block {
+  margin: 20px 0 0 0;
+}
   .why-choose-us-item {
     width: 48%;
   }
