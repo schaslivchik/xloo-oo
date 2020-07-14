@@ -83,7 +83,7 @@ var myFullpage = new fullpage('#fullpage', {
   paddingTop: '0px',
   paddingBottom: '0px',
   fixedElements: '#header, .footer',
-  responsiveWidth: 992,
+  responsiveWidth: 0,
   responsiveHeight: 0,
   responsiveSlides: true,
   parallaxOptions: { type: 'reveal', percentage: 62, property: 'translate' },
