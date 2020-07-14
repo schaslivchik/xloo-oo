@@ -273,6 +273,18 @@
 .nav-xloo-link-btn {
   margin: 20px 0 0 0;
 }
+.block-steps-item-arrow-down {
+  margin-bottom: 60px;
+}
+.block-arrow.block-arrow-down {
+  bottom: -100px;
+  width: 50px;
+}
+.fp-section.fp-table, .fp-slide.fp-table,
+.fp-tableCell {
+  height: 100% !important;
+  padding: 0 !important;
+}
  }
 
 @media (max-width: 768px) {
