@@ -181,9 +181,13 @@
 .why-choose-us-item-title h3 {
   font-size: 21px;
 }
+
  }
 
 @media (max-width: 991px) {
+  .xloo-block-cta {
+    min-height: 100vh;
+  }
   .main-menu-trigger {
     display: flex;
   }
@@ -297,9 +301,13 @@
   height: 100% !important;
   padding: 0 !important;
 }
+
  }
 
 @media (max-width: 768px) {
+  .block-arrow.block-arrow-left {
+    display: none;
+  }
   .block-description-xloo {
     font-size: 42px;
     line-height: 70px;
