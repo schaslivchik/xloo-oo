@@ -615,8 +615,8 @@ z-index: 0;
 display: flex;
 align-items: center;
 background: #F4F5F8;
-padding: 80px 0;
-height: 50%;
+margin: 96px 0 0 0;
+height: calc(45vh - 96px);
 width: 100%;
 }
 .owl-carousel .owl-item img {
@@ -636,7 +636,12 @@ background: #999BA4;
   align-items: center;
   color: #ffffff;
   padding: 74px 0 124px;
-  height: 50%;
+  height: 55vh;
+  width: 100%;
+}
+.section-footer {
+  height: 100%;
+  min-height: 100vh;
 }
 .footer-cta-bussines {
 font-size: 28px;
@@ -938,7 +943,7 @@ opacity: 0;
 }
 
 .title-trusted-block {
-  margin: 60px 0 30px;
+  margin: 0 0 30px;
 }
 
 ::-webkit-scrollbar {
@@ -961,6 +966,7 @@ opacity: 0;
 }
 .fp-scroller {
   transition-duration: 0.8s !important;
+  min-height: 100%;
 }
 .iScrollIndicator {
   display: none !important;
