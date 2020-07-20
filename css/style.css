@@ -665,6 +665,9 @@ color: #ffffff;
 padding: 20px;
 font-size: 20px;
 }
+[alt-position="img-position"] {
+  margin-top: 2px;
+}
 .btn-send-message {
   height: 48px;
   display: inline-flex;
