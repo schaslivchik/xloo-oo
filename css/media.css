@@ -191,6 +191,9 @@ margin-bottom: 30px;
  }
 
 @media (max-width: 991px) {
+  #fp-nav.fp-right {
+    right: -6px;
+}
   .main-menu-trigger {
     display: flex;
   }
