@@ -998,3 +998,22 @@ opacity: 0;
 .grey-block .nav-xloo-link-btn {
   color: #212529;
 }
+.white-block .main-menu-trigger:before,
+.white-block .burger-ico,
+.white-block .main-menu-trigger:after{
+  background: #212529;
+}
+.grey-block .main-menu-trigger:before,
+.grey-block .burger-ico,
+.grey-block .main-menu-trigger:after{
+  background: #212529;
+}
+.active-menu .nav-xloo-link-btn,
+.active-menu .nav-xloo-link {
+  color: #ffffff;
+}
+
+.active-trigger.main-menu-trigger::before,
+.active-trigger.main-menu-trigger::after {
+  background: #ffffff;
+}
