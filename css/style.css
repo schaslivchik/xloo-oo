@@ -16,7 +16,9 @@ color: #93CB40;
 background-color: #93CB40;
 color: #636363;
 }
-
+p {
+  margin: 0;
+}
 .btn {
 font-size: 20px;
 }
@@ -123,6 +125,7 @@ color: #93CB40;
 font-size: 34px;
 font-weight: 600;
 margin-bottom: 0;
+line-height: 25px;
 }
 
 .section-cta:before {
@@ -286,6 +289,7 @@ display: inline-flex;
 color: #ffffff;
 font-size: 20px;
 padding: 0;
+line-height: 14px;
 }
 .btn-xloo-block:hover {
 color: #93CB40;
