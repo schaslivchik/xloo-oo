@@ -617,7 +617,7 @@ background: #F4F5F8;
 min-height: calc(45vh - 96px);
 height: auto;
 width: 100%;
-padding: 30px;
+padding: 50px;
 }
 .owl-carousel .owl-item img {
 width: inherit;
@@ -635,11 +635,11 @@ background: #999BA4;
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding-bottom: 48px;
+  padding: 50px;
   min-height: 55vh;
   height: auto;
   width: 100%;
-  padding-top: 48px;
+  
 }
 .section-footer {
   height: 100%;
@@ -1020,4 +1020,7 @@ opacity: 0;
 .active-trigger.main-menu-trigger::before,
 .active-trigger.main-menu-trigger::after {
   background: #ffffff;
+}
+.container-footer-wrap {
+  margin-bottom: 48px;
 }

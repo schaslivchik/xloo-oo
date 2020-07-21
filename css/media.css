@@ -127,7 +127,9 @@ margin-bottom: 30px;
     height: 60px;
   }
   .xloo-carousel {
-    height: calc(50vh - 96px);
+    min-height: calc(50vh - 96px);
+    height: auto;
+    padding: 30px 0;
   }
   .container-footer {
     min-height: 50vh;
@@ -298,10 +300,11 @@ margin-bottom: 30px;
 .xloo-carousel {
   min-height: calc(35vh - 96px);
   height: auto;
+  padding: 30px;
 }
 .container-footer {
   min-height: 65vh;
-  padding-top: 48px;
+  padding: 30px;
   height: auto;
 }
 
