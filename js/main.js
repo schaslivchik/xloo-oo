@@ -96,14 +96,33 @@ var myFullpage = new fullpage('#fullpage', {
   lazyLoading: true,
 
   //события
-  onLeave: function (origin, destination, direction) { },
-  afterLoad: function (origin, destination, direction) { },
+  onLeave: function (origin, destination, direction) {
+    if (destination.index == '2' || destination.index == '5') {
+      $('.xloo-nav').addClass('white-block')
+    }
+    else {
+      $('.xloo-nav').removeClass('white-block')
+    }
+
+    if (destination.index == '6') {
+      $('.xloo-nav').addClass('grey-block')
+    }
+    else {
+      $('.xloo-nav').removeClass('grey-block')
+    }
+    console.log(destination)
+  },
+  afterLoad: function (origin, destination, direction) {
+
+  },
   afterRender: function () { },
   afterResize: function (width, height) { },
   afterReBuild: function () { },
   afterResponsive: function (isResponsive) { },
   afterSlideLoad: function (section, origin, destination, direction) { },
-  onSlideLeave: function (section, origin, destination, direction) { }
+  onSlideLeave: function (section, origin, destination, direction) {
+
+  }
 
 });
 
