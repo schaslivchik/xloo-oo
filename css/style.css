@@ -85,7 +85,7 @@ padding: 0 15px;
 
 .logo {
 position: relative;
-top: -8px;
+top: -4px;
 max-width: 160px;
 width: 100%;
 }
@@ -174,9 +174,11 @@ z-index: 5040;
 transition: 0.3s;
 }
 .xloo-sticky-nav {
+height: 96px;
+display: flex;
+align-items: center;
 background: rgba(31, 39, 51, 1);
 padding: 5px 0;
-/* transition: 0.3s; */
 }
 .nav-xloo {
   align-items: center;
