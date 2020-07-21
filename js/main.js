@@ -118,7 +118,9 @@ var myFullpage = new fullpage('#fullpage', {
   afterResize: function (width, height) { },
   afterReBuild: function () { },
   afterResponsive: function (isResponsive) { },
-  afterSlideLoad: function (section, origin, destination, direction) { },
+  afterSlideLoad: function (section, origin, destination, direction) {
+
+  },
   onSlideLeave: function (section, origin, destination, direction) {
 
   }
