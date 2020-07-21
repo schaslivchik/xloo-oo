@@ -130,7 +130,8 @@ margin-bottom: 30px;
     height: calc(50vh - 96px);
   }
   .container-footer {
-    height: 50vh;
+    min-height: 50vh;
+    height: auto;
   }
 }
 @media (max-width: 1200px) {

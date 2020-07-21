@@ -614,8 +614,10 @@ margin: auto;
 display: flex;
 align-items: center;
 background: #F4F5F8;
-height: calc(45vh - 96px);
+min-height: calc(45vh - 96px);
+height: auto;
 width: 100%;
+padding: 30px;
 }
 .owl-carousel .owl-item img {
 width: inherit;
@@ -634,8 +636,10 @@ background: #999BA4;
   align-items: center;
   color: #ffffff;
   padding-bottom: 48px;
-  height: 55vh;
+  min-height: 55vh;
+  height: auto;
   width: 100%;
+  padding-top: 48px;
 }
 .section-footer {
   height: 100%;
