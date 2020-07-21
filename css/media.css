@@ -101,6 +101,29 @@ margin-bottom: 30px;
 .block-icon-development-item > p {
   margin: 20px 0 0 0;
 }
+.why-choose-us .xloo-block {
+  padding: 60px 0;
+}
+.pills-left-part-item-content {
+  font-size: 14px;
+  line-height: 24px;
+}
+.pills-left-part-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.nav-pills .xloo-nav-link {
+  font-size: 16px;
+  min-height: 40px;
+}
+.web-development-img img {
+  height: 260px;
+}
+.pills-left-part {
+  width: 50%;
+}
+.pills-left-part-item img{
+  height: 60px;
+}
 }
 @media(max-width: 1440px) {
   .why-choose-us .xloo-block {

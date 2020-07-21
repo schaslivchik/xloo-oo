@@ -79,7 +79,7 @@ var myFullpage = new fullpage('#fullpage', {
   //Дизайн
   controlArrows: true,
   verticalCentered: true,
-  sectionsColor: ['#ccc', '#fff'],
+  sectionsColor: ['#1d2530', '#1d2530', '#fff', '#1d2530', '#1d2530'],
   paddingTop: '96px',
   paddingBottom: '0px',
   fixedElements: '#header, .footer',
@@ -97,14 +97,16 @@ var myFullpage = new fullpage('#fullpage', {
 
   //события
   onLeave: function (origin, destination, direction) {
-    if (destination.index == '2' || destination.index == '5') {
+    var numberBlock = destination.index;
+    if (numberBlock == '2' || numberBlock == '5') {
       $('.xloo-nav').addClass('white-block')
+
     }
     else {
       $('.xloo-nav').removeClass('white-block')
     }
 
-    if (destination.index == '6') {
+    if (numberBlock == '6') {
       $('.xloo-nav').addClass('grey-block')
     }
     else {
@@ -126,7 +128,6 @@ var myFullpage = new fullpage('#fullpage', {
   }
 
 });
-
 
 
 var owl = $('.owl-carousel');
