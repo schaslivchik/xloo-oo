@@ -80,7 +80,7 @@ var myFullpage = new fullpage('#fullpage', {
   controlArrows: true,
   verticalCentered: true,
   sectionsColor: ['#ccc', '#fff'],
-  paddingTop: '0px',
+  paddingTop: '96px',
   paddingBottom: '0px',
   fixedElements: '#header, .footer',
   responsiveWidth: 0,
