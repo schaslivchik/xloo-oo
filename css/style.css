@@ -312,9 +312,9 @@ margin-left: 10px;
   content: '';
   position: absolute;
   left: 0;
-  bottom: 100px;
+  bottom: 10%;
   background: url(../images/o-img.png) bottom left no-repeat;
-  width: 100%;
+  width: 220px;
   height: 440px;
   z-index: 0;
 }
@@ -353,7 +353,7 @@ display: block;
 text-align: center;
 font-size: 20px;
 font-weight: 500;
-margin: 20px 0 -2px;
+margin: 20px 0;
 }
 .block-steps-item {
 position: relative;
@@ -631,7 +631,7 @@ background: #999BA4;
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding: 74px 0 124px;
+  padding-bottom: 48px;
   height: 55vh;
   width: 100%;
 }
@@ -879,7 +879,7 @@ opacity: 0;
 }
 .xloo-copywrite {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   right: 0;
   text-align: center;

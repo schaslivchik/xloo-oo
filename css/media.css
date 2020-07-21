@@ -102,8 +102,36 @@ margin-bottom: 30px;
   margin: 20px 0 0 0;
 }
 }
-@media(max-width: 1366px) {
-
+@media(max-width: 1440px) {
+  .why-choose-us .xloo-block {
+    padding: 60px 0;
+  }
+  .pills-left-part-item-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .pills-left-part-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .nav-pills .xloo-nav-link {
+    font-size: 16px;
+    min-height: 40px;
+  }
+  .web-development-img img {
+    height: 260px;
+  }
+  .pills-left-part {
+    width: 50%;
+  }
+  .pills-left-part-item img{
+    height: 60px;
+  }
+  .xloo-carousel {
+    height: calc(50vh - 96px);
+  }
+  .container-footer {
+    height: 50vh;
+  }
 }
 @media (max-width: 1200px) {
   .footer-contact-info-title {
@@ -163,9 +191,6 @@ margin-bottom: 30px;
  }
 
 @media (max-width: 991px) {
-  .xloo-block-cta {
-    min-height: 100vh;
-  }
   .main-menu-trigger {
     display: flex;
   }
@@ -184,9 +209,6 @@ margin-bottom: 30px;
   }
   .xloo-features-item:not(:last-child) {
      margin-bottom: 40px;
-  }
-  .xloo-block {
-    padding: 140px 0 60px;
   }
   .block-icon-development {
     flex-wrap: wrap;
@@ -217,9 +239,6 @@ margin-bottom: 30px;
   }
   .xloo-carousel {
     padding: 40px 0;
-}
-.title-trusted-block {
-  margin: 95px 0 0 0;
 }
   .why-choose-us-item {
     width: 48%;
@@ -257,10 +276,6 @@ margin-bottom: 30px;
  .block-description-xloo {
   font-size: 32px;
 }
-.xloo-block-cta.xloo-block {
-  padding: 80px 0;
-  margin-top: 96px;
-}
 .xloo-block {
   margin-top: 0;
 }
@@ -280,7 +295,15 @@ margin-bottom: 30px;
   padding: 0 !important;
 } */
 .xloo-carousel, .container-footer {
-  height: inherit;
+
+}
+.xloo-carousel {
+  min-height: calc(35vh - 96px);
+}
+.container-footer {
+  min-height: 65vh;
+  padding-top: 48px;
+  height: auto;
 }
 
  }
@@ -290,9 +313,6 @@ margin-bottom: 30px;
     padding: inherit;
     justify-content: center;
     margin: 0;
-}
-.xloo-block-cta .xloo-title-block {
-  margin-top: 96px;
 }
   .block-arrow.block-arrow-left {
     display: none;
@@ -398,10 +418,16 @@ margin-bottom: 30px;
   width: 35%;
   margin: 30px 10px;
 }
+  .footer-contact-info {
+  margin-bottom: 40px;
+  }
 }
 
 
 @media (max-width: 576px) {
+  .footer-contact-info {
+    margin-bottom: 20px;
+    }
   .block-icon-development-item {
     width: 100%;
   }
