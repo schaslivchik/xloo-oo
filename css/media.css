@@ -278,6 +278,7 @@ margin-bottom: 30px;
 }
 .xloo-block {
   margin-top: 0;
+  padding: 60px 0;
 }
 .nav-xloo-link-btn {
   margin: 20px 0 0 0;
@@ -292,6 +293,7 @@ margin-bottom: 30px;
 
 .xloo-carousel {
   min-height: calc(35vh - 96px);
+  height: auto;
 }
 .container-footer {
   min-height: 65vh;
