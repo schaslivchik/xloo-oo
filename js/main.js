@@ -110,7 +110,6 @@ var myFullpage = new fullpage('#fullpage', {
     else {
       $('.xloo-nav').removeClass('grey-block')
     }
-    console.log(destination)
   },
   afterLoad: function (origin, destination, direction) {
 
