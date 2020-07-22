@@ -10,20 +10,29 @@
 } */
 .fp-viewing-WhatWeDo .xloo-what-we-do .block-top,
 .fp-viewing-WhatWeDo .xloo-what-we-do .block-middle,
-.fp-viewing-WhatWeDo .xloo-what-we-do .block-bottom{
+.fp-viewing-WhatWeDo .xloo-what-we-do .block-bottom,
+
+.fp-viewing-Development .software-development .block-top,
+.fp-viewing-Development .software-development .block-middle,
+.fp-viewing-Development .software-development .block-bottom{
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
   /* animation-delay: 0.3s; */
 }
-.fp-viewing-WhatWeDo .xloo-what-we-do .block-top {
+.fp-viewing-WhatWeDo .xloo-what-we-do .block-top,
+.fp-viewing-Development .software-development .block-top {
+  animation-duration: 0.8s;
+}
+.fp-viewing-WhatWeDo .xloo-what-we-do .block-middle,
+.fp-viewing-Development .software-development .block-middle {
   animation-duration: 1s;
 }
-.fp-viewing-WhatWeDo .xloo-what-we-do .block-middle {
+.fp-viewing-WhatWeDo .xloo-what-we-do .block-bottom,
+.fp-viewing-Development .software-development .block-bottom {
   animation-duration: 1.2s;
 }
-.fp-viewing-WhatWeDo .xloo-what-we-do .block-bottom {
-  animation-duration: 1.4s;
-}
+
+
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
