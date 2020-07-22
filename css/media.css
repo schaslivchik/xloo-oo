@@ -56,6 +56,7 @@ margin-bottom: 30px;
 .xloo-title-block {
   font-size: 28px;
   margin-top: -8px;
+  line-height: 20px;
 }
 .owl-carousel .owl-item img {
   height: 100px;

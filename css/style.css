@@ -124,7 +124,7 @@ color: #93CB40;
 font-size: 34px;
 font-weight: 600;
 margin-bottom: 0;
-line-height: 25px;
+line-height: 24px;
 }
 
 .section-cta:before {
@@ -635,7 +635,7 @@ background: #999BA4;
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding: 50px;
+  padding: 50px 0;
   min-height: 55vh;
   height: auto;
   width: 100%;
