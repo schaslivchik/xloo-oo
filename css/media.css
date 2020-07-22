@@ -340,9 +340,8 @@ margin-bottom: 30px;
     padding: 0;
     justify-content: center;
     margin: 0;
-    min-height: calc(100vh - 96px);
+    min-height: 100vh;
     height: auto;
-    margin-top: 96px;
 }
   .block-arrow.block-arrow-left {
     display: none;
