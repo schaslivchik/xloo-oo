@@ -324,11 +324,11 @@ margin-bottom: 30px;
 .xloo-carousel {
   min-height: calc(35vh - 96px);
   height: auto;
-  padding: 30px;
+  padding: 40px 0;
 }
 .container-footer {
   min-height: 65vh;
-  padding: 30px;
+  padding: 40px 0 0;
   height: auto;
 }
 
