@@ -303,7 +303,7 @@ transition: 0.3s;
 display: flex;
 font-size: 10px;
 justify-content: flex-end; */
-background: url(../images/arrow.svg)center center no-repeat;
+/* background: url(../images/arrow.svg)center center no-repeat;
 background-size: contain;
 width: 10px;
 height: 12px;
@@ -311,7 +311,14 @@ display: block;
 transition: 0.3s;
 position: absolute;
 right: -10px;
-bottom: -1px;
+bottom: -1px; */
+color: #93CB40;
+display: block;
+transition: 0.3s;
+position: absolute;
+right: -10px;
+bottom: 0;
+font-size: 26px;
 }
 /* .btn-xloo-block-dark-text .arrow-btn {
   color: #000000;
