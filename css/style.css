@@ -305,11 +305,17 @@ line-height: 14px;
 color: #93CB40;
 }
 .arrow-btn {
-color: #93CB40;
+/* color: #93CB40;
 transition: 0.3s;
 display: flex;
 font-size: 10px;
-justify-content: flex-end;
+justify-content: flex-end; */
+background: url(../images/arrow.svg)center center no-repeat;
+background-size: contain;
+width: 10px;
+height: 11px;
+display: block;
+transition: 0.3s;
 }
 /* .btn-xloo-block-dark-text .arrow-btn {
   color: #000000;
