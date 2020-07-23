@@ -294,13 +294,6 @@ font-size: 20px;
 padding: 0;
 line-height: 14px;
 }
-/* .btn-xloo-block::after {
-  content: '\f054';
-  font-family: FontAwesome;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
 .btn-xloo-block:hover {
 color: #93CB40;
 }
@@ -313,15 +306,18 @@ justify-content: flex-end; */
 background: url(../images/arrow.svg)center center no-repeat;
 background-size: contain;
 width: 10px;
-height: 11px;
+height: 12px;
 display: block;
 transition: 0.3s;
+position: absolute;
+right: -10px;
+bottom: -1px;
 }
 /* .btn-xloo-block-dark-text .arrow-btn {
   color: #000000;
 } */
 .btn-xloo-block:hover .arrow-btn {
-margin-left: 10px;
+right: -20px;
 /* color: #93CB40; */
 }
 
