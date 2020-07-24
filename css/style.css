@@ -310,8 +310,18 @@ color: #93CB40;
 }
 .btn-xloo-block:hover:before {
   width: 0;
+  animation-name: opacity-btn;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
 }
-
+  @keyframes opacity-btn{
+    0%{
+    opacity: 1;
+    }
+    100%{
+    opacity: 0;
+    }
+  }
 
 .arrow-btn {
 /* color: #93CB40;
