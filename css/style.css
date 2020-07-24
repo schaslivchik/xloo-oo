@@ -610,6 +610,7 @@ margin: 0 0 0 20px;
 }
 .why-choose-us {
 position: relative;
+width: 100%;
 }
 .why-choose-us::before {
 content: '';
