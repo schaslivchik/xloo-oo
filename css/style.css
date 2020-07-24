@@ -293,8 +293,8 @@ align-items: center;
   font-size: 20px;
   z-index: 1;
   padding: 0 24px;
-  transition: 0.5s;
-  height: 48px;
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 100%;
   align-items: center;
 }
 .btn-xloo-block-circle:before {
@@ -410,7 +410,7 @@ right: -20px;
   z-index: 0;
 }
 .btn-xloo-block-dark-text {
-color: #000000;
+color: #212529;
 }
 .software-development-title {
 font-size: 42px;
