@@ -286,6 +286,36 @@ margin-bottom: 60px;
 display: inline-flex;
 align-items: center;
 }
+.btn-xloo-block-circle {
+  position: relative;
+  display: inline-flex;
+  color: #ffffff;
+  font-size: 20px;
+  z-index: 1;
+  padding: 0 24px;
+  transition: 0.5s;
+  height: 48px;
+  align-items: center;
+}
+.btn-xloo-block-circle:before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #93cb40;
+  border-radius: 50px;
+  z-index: -1;
+  left: 0;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.btn-xloo-block-circle:hover:before {
+  width: 100%;
+  opacity: 1;
+}
+.btn-xloo-block-circle:hover {
+  color: #19202B;
+}
 .btn-xloo-block {
 position: relative;
 display: inline-flex;
