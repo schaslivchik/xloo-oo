@@ -1176,3 +1176,10 @@ opacity: 0;
 .btn-xloo-block-chevron:hover .btn-chevron {
   margin-left: 10px;
 }
+
+.xloo-what-we-do .block-top {
+  margin-top: 15px;
+}
+.xloo-what-we-do .block-bottom {
+  margin-top: -22px;
+}
