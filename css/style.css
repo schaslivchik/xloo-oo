@@ -1161,6 +1161,7 @@ opacity: 0;
   color: #93CB40;
 }
 .btn-xloo-block-chevron {
+  text-transform: capitalize;
   color:#fff;
   transition: 0.3s;
 }
