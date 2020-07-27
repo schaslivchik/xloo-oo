@@ -1161,7 +1161,6 @@ opacity: 0;
   color: #93CB40;
 }
 .btn-xloo-block-chevron {
-  text-transform: uppercase;
   color:#fff;
   transition: 0.3s;
 }
@@ -1171,7 +1170,7 @@ opacity: 0;
 .btn-xloo-block-chevron img{
   transition: all 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   vertical-align: unset;
-  height: 15px;
+  height: 11px;
 }
 .btn-xloo-block-chevron:hover .btn-chevron {
   margin-left: 10px;
