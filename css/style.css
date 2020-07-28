@@ -705,7 +705,7 @@ background: #F4F5F8;
 min-height: calc(45vh - 96px);
 height: auto;
 width: 100%;
-padding: 50px;
+padding: 50px 0;
 }
 .owl-carousel .owl-item img {
 width: inherit;
@@ -1214,4 +1214,13 @@ margin-top: 18px;
 }
 .why-choose-us .block-bottom {
   margin-top: 6px;
+}
+.xloo-our-works .block-top {
+margin-top: 15px;
+}
+.xloo-our-works .block-middle {
+margin: 50px 0 22px;
+}
+.xloo-our-works .block-bottom {
+
 }

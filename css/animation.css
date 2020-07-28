@@ -30,7 +30,11 @@
 
 .fp-viewing-OurWorks .xloo-our-works .block-top,
 .fp-viewing-OurWorks .xloo-our-works .block-middle,
-.fp-viewing-OurWorks .xloo-our-works .block-bottom{
+.fp-viewing-OurWorks .xloo-our-works .block-bottom,
+
+.fp-viewing-TrustedBy .xloo-carousel .title-trusted-block,
+.fp-viewing-TrustedBy .owl-carousel,
+.fp-viewing-TrustedBy .container-footer-wrap{
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
   /* animation-delay: 0.3s; */
@@ -40,7 +44,8 @@
 .fp-viewing-Development .software-development .block-top,
 .fp-viewing-HowWeDoIt .xloo-how-we-do .block-top,
 .fp-viewing-WhyChooseUs .why-choose-us .block-top,
-.fp-viewing-OurWorks .xloo-our-works .block-top {
+.fp-viewing-OurWorks .xloo-our-works .block-top,
+.fp-viewing-TrustedBy .xloo-carousel .title-trusted-block {
   animation-duration: 0.8s;
 }
 .fp-viewing-WeAreXloo .xloo-block-cta .block-middle,
@@ -48,7 +53,8 @@
 .fp-viewing-Development .software-development .block-middle,
 .fp-viewing-HowWeDoIt .xloo-how-we-do .block-middle,
 .fp-viewing-WhyChooseUs .why-choose-us .block-middle,
-.fp-viewing-OurWorks .xloo-our-works .block-middle {
+.fp-viewing-OurWorks .xloo-our-works .block-middle,
+.fp-viewing-TrustedBy .owl-carousel {
   animation-duration: 1s;
 }
 .fp-viewing-WeAreXloo .xloo-block-cta .block-bottom,
@@ -56,7 +62,8 @@
 .fp-viewing-Development .software-development .block-bottom,
 .fp-viewing-HowWeDoIt .xloo-how-we-do .block-bottom,
 .fp-viewing-WhyChooseUs .why-choose-us .block-bottom,
-.fp-viewing-OurWorks .xloo-our-works .block-bottom {
+.fp-viewing-OurWorks .xloo-our-works .block-bottom,
+.fp-viewing-TrustedBy .container-footer-wrap {
   animation-duration: 1.2s;
 }
 
