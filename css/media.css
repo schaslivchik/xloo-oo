@@ -102,7 +102,10 @@ margin-bottom: 30px;
   margin: 20px 0 0 0;
 }
 .why-choose-us .xloo-block {
-  padding: 60px 0;
+  padding: 45px 0;
+}
+.why-choose-us-item {
+  margin-bottom: 25px;
 }
 .pills-left-part-item-content {
   font-size: 14px;
@@ -123,6 +126,10 @@ margin-bottom: 30px;
 }
 .pills-left-part-item img{
   height: 60px;
+}
+.why-choose-us-item-title {
+  margin-bottom: 10px;
+  min-height: 64px;
 }
 }
 @media(max-width: 1440px) {
