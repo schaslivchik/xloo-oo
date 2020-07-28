@@ -459,7 +459,7 @@ display: flex;
 flex-wrap: wrap;
 align-items: flex-start;
 justify-content: center;
-padding: 7px 0 6px;
+padding: 6px 0;
 }
 .block-arrow {
 position: absolute;
