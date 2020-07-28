@@ -1181,5 +1181,17 @@ opacity: 0;
   margin-top: 15px;
 }
 .xloo-what-we-do .block-bottom {
-  margin-top: -22px;
+  margin-top: -21px;
+}
+.software-development .block-top {
+margin-top: 3px;
+}
+.software-development .block-middle {
+  margin: 50px 0 10px;
+}
+.software-development .block-bottom {
+  margin-top: 0;
+}
+.software-development-title {
+  margin-bottom: 21px;
 }
