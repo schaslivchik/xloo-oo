@@ -1064,7 +1064,9 @@ opacity: 0;
 .iScrollIndicator {
   display: none !important;
 }
-
+.btn-xloo-block-chevron.btn {
+  padding: .375rem 0;
+}
 .white-block {
   background: #ffffff ;
 }
@@ -1203,4 +1205,13 @@ margin-top: 14px;
 }
 .xloo-how-we-do .block-bottom {
   margin-top: 12px;
+}
+.why-choose-us .block-top {
+margin-top: 18px;
+}
+.why-choose-us .block-middle {
+  margin: 50px 0 23px;
+}
+.why-choose-us .block-bottom {
+  margin-top: 6px;
 }
