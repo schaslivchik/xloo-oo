@@ -408,12 +408,10 @@ right: -20px;
   height: 440px;
   z-index: 0;
 }
-.btn-xloo-block-dark-text {
-color: #212529;
-}
+
 .software-development-title {
 font-size: 42px;
-color: #2c3544;
+color: #212529;
 }
 .software-development-subtitle {
 font-size: 15px;
@@ -1176,7 +1174,9 @@ opacity: 0;
 .btn-xloo-block-chevron:hover .btn-chevron {
   margin-left: 10px;
 }
-
+.btn-xloo-block-dark-text {
+  color: #212529;
+  }
 .xloo-what-we-do .block-top {
   margin-top: 15px;
 }
