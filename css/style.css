@@ -739,9 +739,9 @@ line-height: 36px;
 margin: 60px 0 45px;
 }
 .footer-cta-hire-us-text {
-font-size: 26px;
-line-height: 38px;
-margin-bottom: 51px;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 25px;
 }
 .footer-nav {
 height: 100px;
@@ -771,17 +771,17 @@ height: 100px;
 .footer-contact-info-title {
 font-size: 24px;
 line-height: 34px;
-margin-bottom: 30px;
+margin: -1px 0 6px;
 }
 .phone-item p, .footer-xloo-email p {
   color: #a2a5aa;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer-contact-info-link {
   color: #ffffff;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer-contact-info-link:hover {
 color: #93cb41;
@@ -803,8 +803,8 @@ padding: 0 20px;
 margin-bottom: 45px;
 }
 .btn-xloo-social {
-height: 44px;
-width: 44px;
+height: 34px;
+width: 34px;
 border: 1px dotted #ffffff;
 display: flex;
 align-items: center;
@@ -812,7 +812,7 @@ justify-content: center;
 }
 .footer-xloo-social-list {
 padding: 0;
-margin: 15px 1px 0;
+margin: 14px 1px 0;
 list-style-type: none;
 display: flex;
 }
@@ -1029,14 +1029,14 @@ opacity: 0;
   color:#0E141C;
 }
 
-.footer-contact-info-title {
+/* .footer-contact-info-title {
   font-size: 26px;
   line-height: 36px;
   margin: 1px 0 7px;
-}
+} */
 
 .title-trusted-block {
-  margin: 0 0 30px;
+  margin: 0 0 57px;
 }
 
 ::-webkit-scrollbar {
@@ -1112,7 +1112,7 @@ opacity: 0;
   background: #ffffff;
 }
 .container-footer-wrap {
-  margin-bottom: 48px;
+  margin-bottom: 58px;
 }
 .section-cta {
   position: relative;
@@ -1221,6 +1221,6 @@ margin-top: 15px;
 .xloo-our-works .block-middle {
 margin: 50px 0 22px;
 }
-.xloo-our-works .block-bottom {
+.fp-viewing-TrustedBy {
 
 }
