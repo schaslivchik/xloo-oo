@@ -481,6 +481,22 @@ margin-bottom: 30px;
 .footer-contact-info-title {
   font-size: 21px;
 }
+.wrap-pills-content {
+  flex-wrap: wrap;
+}
+.pills-left-part,
+.pills-right-part {
+  width: 100%;
+}
+.pills-right-part {
+  margin-bottom: 30px;
+}
+.pills-left-part {
+  order: 1;
+}
+.why-choose-us-item:nth-child(5), .why-choose-us-item:nth-child(4) {
+  margin-bottom: 24px;
+}
  }
 
 @media (max-width: 768px) {
@@ -683,11 +699,20 @@ margin-bottom: 30px;
   width: 100%;
   margin-bottom: 20px;
 }
-.software-development-title {
-  font-size: 32px;
-}
 .xloo-title-block {
   text-align: center;
 }
-
+.block-middle .xloo-secondary-text {
+  text-align: center;
+}
+.block-description-xloo {
+  text-align: center;
+}
+.block-bottom {
+  width: 100%;
+  text-align: center;
+}
+.why-choose-us-item-title {
+  justify-content: center;
+}
 }
