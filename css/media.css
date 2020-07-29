@@ -327,6 +327,25 @@ margin-bottom: 30px;
   }
 }
 @media (max-width: 991px) {
+  .fp-tableCell {
+    min-height: 100vh;
+    height: auto !important;
+  }
+  .section {
+    padding-top: 0 !important;
+    height: inherit !important;
+  }
+  .xloo-block-cta.xloo-block{
+    height: calc(100vh - 96px);
+    margin-top: 96px;
+    padding: 0;
+}
+.xloo-what-we-do .xloo-block {
+  padding: 0 0 60px;
+}
+.why-choose-us {
+  padding: 0 0 60px;
+}
   #fp-nav.fp-right {
     right: -6px;
 }
