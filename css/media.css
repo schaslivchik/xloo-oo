@@ -75,7 +75,7 @@ margin-bottom: 30px;
   top: 63px;
 }
 .title-trusted-block {
-  margin: 12px 0 30px;
+    margin: 12px 0 30px;
 }
 .xloo-title-block {
   font-size: 28px;
@@ -153,16 +153,29 @@ margin-bottom: 30px;
 }
 }
 @media(max-width: 1440px) {
-  .why-choose-us .xloo-block {
-    padding: 60px 0;
+  .xloo-features-content-title,
+  .why-choose-us-item-title h3 {
+    font-size: 21px;
   }
+  .why-choose-us-item-title {
+    min-height: 50px;
+  }
+  .why-choose-us .xloo-block {
+    padding: 0;
+}
+.nav-xloo-tab {
+  margin-bottom: 10px;
+}
   .pills-left-part-item-content {
     font-size: 14px;
     line-height: 24px;
   }
   .pills-left-part-item:not(:last-child) {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
+  .xloo-block {
+    padding: 0;
+}
   .nav-pills .xloo-nav-link {
     font-size: 16px;
     min-height: 40px;
@@ -185,6 +198,7 @@ margin-bottom: 30px;
     min-height: 50vh;
     height: auto;
   }
+  
 }
 @media (max-width: 1200px) {
   .footer-contact-info-title {
