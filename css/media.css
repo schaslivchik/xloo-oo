@@ -163,6 +163,18 @@ margin-bottom: 30px;
   .why-choose-us .xloo-block {
     padding: 0;
 }
+.xloo-what-we-do .block-middle{
+  margin: 36px 0;
+}
+.software-development .block-top {
+  margin-top: 7px;
+}
+.why-choose-us .block-middle {
+  margin: 42px 0 10px;
+}
+.xloo-our-works .block-middle {
+  margin: 41px 0 15px;
+}
 .nav-xloo-tab {
   margin-bottom: 10px;
 }
