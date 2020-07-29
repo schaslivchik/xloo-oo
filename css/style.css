@@ -10,6 +10,7 @@ header {
   position: relative;
   z-index: 5050;
 }
+
 .primary-xloo-color {
 color: #93CB40;
 }
@@ -22,6 +23,10 @@ p {
 }
 .btn {
 font-size: 20px;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(147 203 64 / 0%);
 }
 .btn-logo {
   display: block;
@@ -966,10 +971,6 @@ font-size: 16px;
   align-items: center;
   height: 100%;
   color: #ec5b51;
-}
-.btn.focus, .btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(147, 203, 64, 0.2);
 }
 .xloo-modal textarea {
   min-height: 44px;
