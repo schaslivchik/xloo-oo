@@ -8,6 +8,7 @@
 .xloo-what-we-do .block-bottom {
   opacity: 0;
 } */
+@media (min-width: 991px) {
 .fp-viewing-WeAreXloo .xloo-block-cta .block-top,
 .fp-viewing-WeAreXloo .xloo-block-cta .block-middle,
 .fp-viewing-WeAreXloo .xloo-block-cta .block-bottom,
@@ -119,4 +120,5 @@
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
 }

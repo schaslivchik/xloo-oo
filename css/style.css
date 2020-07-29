@@ -29,12 +29,14 @@ font-size: 20px;
   overflow: hidden;
 }
 .primary-xloo-btn-outline {
-display: inline-block;
-padding: 7px 25px;
-color: #ffffff;
-border: 2px solid #93CB40;
-border-radius: 30px;
-height: 48px;
+  display: inline-flex;
+  padding: 0px 25px;
+  color: #ffffff;
+  border: 2px solid #93CB40;
+  border-radius: 30px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
 }
 .primary-xloo-btn-outline:hover {
 background: #93CB40;
@@ -415,7 +417,6 @@ color: #212529;
 }
 .software-development-subtitle {
 font-size: 15px;
-opacity: 0.7;
 max-width: 920px;
 margin: auto;
 }

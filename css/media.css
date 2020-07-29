@@ -218,7 +218,7 @@ margin-bottom: 30px;
   }
   
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .footer-contact-info-title {
     margin: 0px 0 10px;
   }
@@ -273,8 +273,59 @@ margin-bottom: 30px;
   font-size: 21px;
 }
 
- }
-
+ } */
+@media (max-width: 1200px) {
+  .xloo-features-img {
+    height: 50px;
+  }
+  .xloo-secondary-text {
+    font-size: 13px;
+  }
+  .xloo-features-content {
+    margin-left: 10px;
+  }
+  .software-development-subtitle {
+    font-size: 13px;
+    line-height: 21px;
+    max-width: 660px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .xloo-title-block {
+    font-size: 24px;
+    line-height: 18px;
+  }
+  .nav-xloo-link-btn,
+  .nav-xloo-link {
+    font-size: 14px;
+  }
+  #fp-nav.fp-right {
+    right: 2px;
+  }
+  .btn-xloo-block-chevron img {
+    height: 9px;
+  }
+  .block-steps-item-arrow-right {
+    margin-right: 90px;
+  }
+  .block-steps-item-arrow-left {
+    margin-left: 90px;
+  }
+  .block-arrow.block-arrow-right {
+    right: -80px;
+  }
+  .block-arrow {
+    width: 71px
+  }
+  .block-arrow.block-arrow-left {
+    left: -80px;
+  }
+  .pills-left-part-item-content {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
 @media (max-width: 991px) {
   #fp-nav.fp-right {
     right: -6px;
