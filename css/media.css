@@ -1,17 +1,36 @@
 @media (max-width: 1600px) {
+  .xloo-block-cta .block-middle {
+    margin: -18px 0 25px;
+}
 .xloo-features-blocks {
-  padding: 1px 0;
+  margin: 0 0 2px;
 }
 .block-description-xloo {
   font-size: 42px;
-  padding: 6px 0;
-  margin: -16px 0 -9px;
 }
 .block-why-choose-us {
   margin-top: -6px;
 }
 .why-choose-us-item-title img {
   height: 44px;
+}
+.software-development .block-middle {
+  margin: 34px 0 18px;
+}
+.software-development .block-top {
+  margin-top: 6px;
+}
+.xloo-how-we-do .block-bottom {
+  margin-top: 0;
+}
+.block-steps {
+  padding: 0;
+}
+.xloo-how-we-do .block-middle {
+  margin: 41px 0 26px;
+}
+.why-choose-us .block-middle {
+  margin: 37px 0 9px;
 }
 .xloo-features-content-title {
   font-size: 24px;
@@ -79,6 +98,7 @@ margin-bottom: 30px;
 }
 .software-development-title {
   font-size: 32px;
+  margin-bottom: 15px;
 }
 .section-cta:before {
   background-size: 50%;
@@ -124,7 +144,7 @@ margin-bottom: 30px;
   height: 60px;
 }
 .why-choose-us-item-title {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   min-height: 64px;
 }
 }
