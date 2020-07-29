@@ -390,6 +390,7 @@ margin-bottom: 30px;
     margin-bottom: 60px;
   }
   .footer-cta-hire-us-text {
+    font-size: 21px;
     margin-bottom: 20px;
   }
   .footer-cta-hire-us {
@@ -448,17 +449,18 @@ margin-bottom: 30px;
   bottom: -100px;
   width: 50px;
 }
-.title-trusted-block {
-  margin: 0 0 30px;
+.active-menu .nav-xloo-link-btn, .active-menu .nav-xloo-link {
+  font-size: 16px;
 }
 .xloo-carousel {
   min-height: calc(35vh - 96px);
   height: auto;
   padding: 60px 0;
+  margin-bottom: 10px;
 }
 .container-footer {
   min-height: 65vh;
-  padding: 60px 0 0;
+  padding: 65px 0 0;
   height: auto;
 }
 .owl-carousel.owl-loaded {
@@ -466,6 +468,18 @@ margin-bottom: 30px;
 }
 .xloo-block {
   min-height: auto;
+}
+.software-development-title {
+  font-size: 24px;
+}
+.xloo-how-we-do .block-top {
+  margin-top: 12px;
+}
+.xloo-our-works .block-top {
+  margin-top: 12px;
+}
+.footer-contact-info-title {
+  font-size: 21px;
 }
  }
 
