@@ -176,6 +176,9 @@ margin-bottom: 30px;
   .xloo-block {
     padding: 0;
 }
+.xloo-secondary-text {
+  line-height: 21px;
+}
   .nav-pills .xloo-nav-link {
     font-size: 16px;
     min-height: 40px;
