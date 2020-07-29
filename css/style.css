@@ -96,10 +96,10 @@ flex-wrap: nowrap;
 padding: 0 15px;
 }
 .logo {
-position: relative;
-top: -10px;
-max-width: 177px;
-width: 100%;
+  position: relative;
+  top: -8px;
+  max-width: 172px;
+  width: 100%;
 }
 .xloo-block {
   min-height: calc(100vh - 96px);
@@ -1105,7 +1105,7 @@ opacity: 0;
   display: block;
 }
 .white-block .btn-logo img, .grey-block .btn-logo img {
-  transform: translateY(-86px);
+  transform: translateY(-81px);
 }
 .grey-block {
   background: #F4F5F8;
