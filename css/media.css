@@ -464,6 +464,9 @@ margin-bottom: 30px;
 .owl-carousel.owl-loaded {
   margin-bottom: 0;
 }
+.xloo-block {
+  min-height: auto;
+}
  }
 
 @media (max-width: 768px) {
