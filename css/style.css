@@ -462,6 +462,32 @@ align-items: flex-start;
 justify-content: center;
 padding: 6px 0;
 }
+.block-arrow:after {
+ 
+}
+.block-arrow-right::after {
+  left: 0;
+  content: '••••••••••••••••••••';
+  position: absolute;
+  width: calc(100% - 7px);
+  overflow: hidden;
+  display: block;
+}
+.block-arrow-left::after {
+  right: 0;
+  content: '••••••••••••••••••••';
+  position: absolute;
+  width: calc(100% - 7px);
+  overflow: hidden;
+  display: block;
+}
+.block-arrow-down::after {
+  content: '••••••••••••••••••••';
+  position: absolute;
+  width: calc(100% - 7px);
+  overflow: hidden;
+  display: block;
+}
 .block-arrow {
 position: absolute;
 width: 105px;
