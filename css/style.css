@@ -1103,9 +1103,8 @@ opacity: 0;
 .btn-logo img {
   display: block;
 }
-.white-block .btn-logo img,
-.grey-block .btn-logo img {
-  transform: translateY(-70px);
+.white-block .btn-logo img, .grey-block .btn-logo img {
+  transform: translateY(-86px);
 }
 .grey-block {
   background: #F4F5F8;
