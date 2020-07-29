@@ -462,9 +462,6 @@ align-items: flex-start;
 justify-content: center;
 padding: 6px 0;
 }
-.block-arrow:after {
- 
-}
 .block-arrow-right::after {
   left: 0;
   content: '••••••••••••••••••••';

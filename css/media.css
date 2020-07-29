@@ -328,7 +328,6 @@ margin-bottom: 30px;
 }
 @media (max-width: 991px) {
   .fp-tableCell {
-    min-height: 100vh;
     height: auto !important;
   }
   .section {
@@ -449,7 +448,9 @@ margin-bottom: 30px;
   bottom: -100px;
   width: 50px;
 }
-
+.title-trusted-block {
+  margin: 0 0 30px;
+}
 .xloo-carousel {
   min-height: calc(35vh - 96px);
   height: auto;
