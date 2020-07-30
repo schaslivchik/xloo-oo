@@ -54,7 +54,6 @@ color: #000000;
   z-index: 2;
   overflow: hidden;
   }
-
 .nav-xloo-link {
 display: block;
 position: relative;
@@ -511,7 +510,7 @@ display: flex;
 align-items: center;
 }
 .block-arrow img {
-  width: 105px;
+width: 105px;
 }
 .block-steps-item-arrow-right {
 margin-right: 120px;
