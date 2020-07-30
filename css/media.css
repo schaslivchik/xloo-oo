@@ -1,4 +1,15 @@
 @media (max-width: 1600px) {
+  .container-dark:after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(14, 20, 28, 1) 0%, rgba(44, 53, 68, 1) 100%);
+    filter: blur(20px);
+    z-index: -1;
+  }
   .xloo-block-cta .block-middle {
     margin: -18px 0 25px;
 }
