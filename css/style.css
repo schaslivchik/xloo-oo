@@ -98,6 +98,7 @@ padding: 0 15px;
 .logo {
   position: relative;
   top: -8px;
+  left: 2px;
   max-width: 172px;
   width: 100%;
 }
@@ -1061,9 +1062,18 @@ opacity: 0;
 } */
 
 .title-trusted-block {
-  margin: 0 0 57px;
+  margin: 0 2px 57px;
 }
-
+.footer-cta-hire-us .primary-xloo-btn-outline {
+  margin-left: 1px;
+}
+.why-choose-us .block-why-choose-us {
+  margin-left: 2px;
+}
+[alt="quality-service"] {
+  position: relative;
+  left: -4px;
+}
 ::-webkit-scrollbar {
   width: 0px;
   background-color: #F5F5F5;
@@ -1144,6 +1154,11 @@ opacity: 0;
 .section-cta .block-bottom {
   z-index: 2;
 }
+ [alt="design-solutions"] {
+  position: relative;
+  left: 2px;
+}
+
 #particles-js {
   position: fixed;
   top: 0;
