@@ -750,6 +750,7 @@ font-size: 20px;
 .btn-send-message {
   line-height: 0;
   -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: geometricPrecision;
 }
 .footer-logo {
 height: 100px;
