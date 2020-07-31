@@ -366,20 +366,6 @@ color: #93CB40;
   }
 
 .arrow-btn {
-/* color: #93CB40;
-transition: 0.3s;
-display: flex;
-font-size: 10px;
-justify-content: flex-end; */
-/* background: url(../images/arrow.svg)center center no-repeat;
-background-size: contain;
-width: 10px;
-height: 12px;
-display: block;
-transition: 0.3s;
-position: absolute;
-right: -10px;
-bottom: -1px; */
 position: relative;
 color: #93CB40;
 display: block;
@@ -395,14 +381,9 @@ font-size: 26px;
   height: 2px;
   background: #93cb40;
 }
-/* .btn-xloo-block-dark-text .arrow-btn {
-  color: #000000;
-} */
 .btn-xloo-block:hover .arrow-btn {
 right: -20px;
-/* color: #93CB40; */
 }
-
 .xloo-features-img {
   position: relative;
   padding-top: 5px;
@@ -473,29 +454,6 @@ align-items: flex-start;
 justify-content: center;
 padding: 6px 0;
 }
-/* .block-arrow-right::after {
-  left: 0;
-  content: '••••••••••••••••••••';
-  position: absolute;
-  width: calc(100% - 7px);
-  overflow: hidden;
-  display: block;
-}
-.block-arrow-left::after {
-  right: 0;
-  content: '••••••••••••••••••••';
-  position: absolute;
-  width: calc(100% - 7px);
-  overflow: hidden;
-  display: block;
-}
-.block-arrow-down::after {
-  content: '••••••••••••••••••••';
-  position: absolute;
-  width: calc(100% - 7px);
-  overflow: hidden;
-  display: block;
-} */
 .block-arrow {
 position: absolute;
 width: 105px;
@@ -520,13 +478,6 @@ margin-right: 120px;
 .block-arrow.block-arrow-right{
 right: -114px;
 }
-/* .block-arrow.block-arrow-right:before {
-content: '';
-border: 7px solid transparent;
-border-left: 10px solid #ffffff;
-position: absolute;
-right: -7px;
-} */
 .block-steps-item-arrow-left {
 margin-left: 120px;
 } 
@@ -552,13 +503,6 @@ justify-content: flex-end;
   position: absolute;
   left: 0;
 }
-/* .block-arrow.block-arrow-left:before {
-content: '';
-border: 7px solid transparent;
-border-right: 10px solid #ffffff;
-position: absolute;
-left: -7px;
-} */
 .block-steps-item-arrow-down {
 margin-bottom: 80px;
 }
@@ -569,13 +513,6 @@ top: auto;
 transform: rotate(90deg);
 width: 60px;
 }
-/* .block-arrow.block-arrow-down:before {
-content: '';
-border: 7px solid transparent;
-border-left: 10px solid #ffffff;
-position: absolute;
-right: -7px;
-} */
 .border-radius-right {
 border-radius: 0 18px 0 0;
 }
@@ -815,7 +752,6 @@ font-size: 20px;
 }
 .btn-send-message {
   height: 48px;
-  display: table;
   line-height: 44px;
   vertical-align: unset;
   -webkit-font-smoothing: unset;
