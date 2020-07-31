@@ -34,14 +34,9 @@ font-size: 20px;
   overflow: hidden;
 }
 .primary-xloo-btn-outline {
-  display: inline-flex;
-  padding: 0px 25px;
   color: #ffffff;
   border: 2px solid #93CB40;
   border-radius: 30px;
-  height: 48px;
-  justify-content: center;
-  align-items: center;
 }
 .primary-xloo-btn-outline:hover {
 background: #93CB40;
@@ -752,9 +747,8 @@ font-size: 20px;
 }
 .btn-send-message {
   line-height: 0;
-  min-height: 48px;
-  height: 48px;
-  padding: 0 25px;
+  padding: 22px 25px;
+  box-sizing: content-box;
 }
 .footer-logo {
 height: 100px;
@@ -775,7 +769,7 @@ margin: -1px 0 6px;
   font-size: 16px;
 }
 .footer-contact-info-link:hover {
-color: #93cb41;
+color: #93cb40;
 border-color: #93cb40;
 text-decoration: none;
 }
