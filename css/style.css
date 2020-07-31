@@ -751,9 +751,10 @@ font-size: 20px;
   margin-top: 2px;
 }
 .btn-send-message {
-  height: inherit;
   line-height: 0;
-  padding: 22px 25px;
+  min-height: 48px;
+  height: 48px;
+  padding: 0 25px;
 }
 .footer-logo {
 height: 100px;
