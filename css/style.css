@@ -749,6 +749,7 @@ font-size: 20px;
 }
 .btn-send-message {
   line-height: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 .footer-logo {
 height: 100px;
