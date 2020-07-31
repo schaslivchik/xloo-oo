@@ -815,10 +815,10 @@ font-size: 20px;
 }
 .btn-send-message {
   height: 48px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 49px;
+  display: table;
+  line-height: 44px;
+  vertical-align: unset;
+  -webkit-font-smoothing: unset;
 }
 .footer-logo {
 height: 100px;
@@ -968,7 +968,7 @@ font-size: 16px;
   box-shadow: none;
 }
 .xloo-btn-form {
-  padding: 8px 25px;
+  padding: 0 25px;
   color: #19202b;
   border: 1px solid #19202b;
   border-radius: 30px;
