@@ -49,9 +49,9 @@ color: #000000;
 }
 .container-dark {
 position: relative;
-background-image: url(../images/bg.jpg);
-background-size: cover;
-background-repeat: no-repeat;
+background-image: url(../images/bg_2.jpg);
+background-size: contain;
+background-repeat: repeat-y;
 z-index: 2;
 overflow: hidden;
 }
