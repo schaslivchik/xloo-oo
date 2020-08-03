@@ -704,6 +704,8 @@ max-width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+z-index: 999;
+position: relative;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
 background: #999BA4;

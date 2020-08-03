@@ -108,6 +108,7 @@ owl.owlCarousel({
   autoplayTimeout: 0,
   autoplayHoverPause: true,
   responsiveClass: true,
+  lazyLoad: true,
   responsive: {
     0: {
       items: 1,
