@@ -904,6 +904,7 @@ font-size: 16px;
   border: 1px solid #19202b;
   border-radius: 30px;
   background: #ffffff;
+  padding: 22px 25px;
 }
 .xloo-btn-form:hover {
   background: #93cb40;
