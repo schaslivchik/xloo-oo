@@ -35,7 +35,7 @@
 .fp-viewing-OurWorks .xloo-our-works .block-bottom,
 
 .fp-viewing-TrustedBy .xloo-carousel .title-trusted-block,
-.fp-viewing-TrustedBy .owl-carousel,
+.fp-viewing-TrustedBy .owl-stage-outer,
 .fp-viewing-TrustedBy .container-footer-wrap{
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
@@ -56,7 +56,7 @@
 .fp-viewing-HowWeDoIt .xloo-how-we-do .block-middle,
 .fp-viewing-WhyChooseUs .why-choose-us .block-middle,
 .fp-viewing-OurWorks .xloo-our-works .block-middle,
-.fp-viewing-TrustedBy .owl-carousel {
+.fp-viewing-TrustedBy .owl-stage-outer {
   animation-duration: 1s;
 }
 .fp-viewing-WeAreXloo .xloo-block-cta .block-bottom,
