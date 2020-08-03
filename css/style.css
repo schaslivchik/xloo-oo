@@ -765,7 +765,7 @@ height: 100px;
 .footer-contact-info-title {
 font-size: 24px;
 line-height: 34px;
-margin: -1px 0 6px;
+margin: -1px 0 6px -1px;
 }
 .phone-item p, .footer-xloo-email p {
   color: #a2a5aa;
