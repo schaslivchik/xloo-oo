@@ -708,10 +708,6 @@ z-index: 999;
 position: relative;
 margin: 0 5px;
 }
-.owl-carousel .owl-stage-outer {
-  overflow: initial;
-  overflow-x: hidden;
-}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
 background: #999BA4;
 }
