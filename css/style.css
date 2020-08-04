@@ -178,7 +178,7 @@ top: 0;
 right: 0;
 left: 0;
 z-index: 5040;
-transition: 0.3s;
+transition: 0.1s;
 }
 .xloo-sticky-nav {
 height: 96px;
